@@ -8,5 +8,11 @@ public class W06T05 {
             System.out.println();
         }
 
+    System.out.println("\nUsing StringBuilder:");
+    for (int i = sentence.length - 1; i >= 0; i--) {
+        StringBuilder sb = new StringBuilder(sentence[i]);
+        System.out.println(sb.reverse());
+    }
+
     }
 }
