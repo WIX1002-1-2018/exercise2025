@@ -8,7 +8,7 @@ package W10;
  *
  * @author pensyarah
  */
-public class W10T5 {
+public class W10T05 {
 
     /**
      * @param args the command line arguments
