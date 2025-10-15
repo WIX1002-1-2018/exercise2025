@@ -1,3 +1,5 @@
+package W05;
+
 public class W05E03 {
     public static void main(String[] args) {
     String[] sentence = {"the quick brown the fox", "jumps over the lazy dog", "the end"};

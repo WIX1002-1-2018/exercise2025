@@ -1,4 +1,4 @@
-public class W06T05 {
+public class W06T05_1 {
     public static void main(String[] args) {
         String[] sentence = {"Hello", "world", "Java", "programming"};
         

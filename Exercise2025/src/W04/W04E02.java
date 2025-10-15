@@ -1,3 +1,5 @@
+package W04;
+
 import java.util.Scanner;
 
 public class W04E02 {
