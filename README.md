@@ -1,4 +1,5 @@
-# exercise2025
+# WIX1002 Sample code for 2025
+
 This repository contains solutions and example exercises for WIX1002 (2025).
 
 Contents
