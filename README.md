@@ -8,7 +8,17 @@ Contents
 
 Summary of Week 01 (W01)
 -------------------------
-- `src/W01/W01T01.java` — A minimal "Hello World" program (prints "Hello World").
+The `src/W01` folder contains introductory Java examples covering basic output and escape sequences:
+
+- `W01E01.java` — Basic `println()` - Printing simple text messages.
+- `W01E02.java` — Printing numbers and performing basic arithmetic operations.
+- `W01E03.java` — Combining text and numbers using string concatenation.
+- `W01E04.java` — Using `\n` (newline) escape sequence for multi-line output.
+- `W01E05.java` — Using `\t` (tab) escape sequence for formatted columns.
+- `W01E06.java` — Combining `\n` and `\t` escape sequences for structured output.
+- `W01E07.java` — Other escape sequences: `\"` (quotes), `\\` (backslash), and `\'` (single quote).
+- `W01E08.java` — Creating formatted output with escape sequences (student information report).
+- `W01T01.java` — A minimal "Hello World" program (prints "Hello World").
 
 Summary of Week 02 (W02)
 -------------------------
