@@ -33,6 +33,8 @@ The `src/W02` folder contains simple Java examples demonstrating basic language 
 
 How to run
 ----------
+
+### Option 1: Using Command Line
 From the `Exercise2025` directory you can compile and run any example using `javac` and `java`.
 
 Example (Unix / Linux / macOS):
@@ -42,6 +44,23 @@ cd Exercise2025
 javac -d out $(find src -name "*.java")
 java -cp out W02.W02E01
 ```
+
+### Option 2: Using an IDE (NetBeans, IntelliJ IDEA, Eclipse, etc.)
+Students are free to clone this repository to any Java IDE:
+
+1. **Clone the repository:**
+   ```bash
+   git clone <repository-url>
+   cd exercise2025
+   ```
+
+2. **Open in your IDE:**
+   - **NetBeans**: File → Open Project → Select the `Exercise2025` folder
+   - **IntelliJ IDEA**: File → Open → Select the `Exercise2025` folder
+   - **Eclipse**: File → Import → Existing Projects into Workspace → Select the `Exercise2025` folder
+
+3. **Run a program:**
+   - Right-click on any `.java` file (e.g., `W01E01.java`) and select "Run File" or press Shift+F6 (NetBeans) / Ctrl+Shift+F10 (IntelliJ)
 
 Notes
 -----
