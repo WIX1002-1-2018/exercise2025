@@ -31,6 +31,20 @@ The `src/W02` folder contains simple Java examples demonstrating basic language 
 - `W02E05.java` — String concatenation and basic console I/O using `Scanner` (reads name and age from the user).
 - `W02E06.java` — Random number generation examples (0-99) and simulating a 6-sided die roll.
 
+Summary of Week 03 (W03)
+-------------------------
+The `src/W03` folder contains Java examples demonstrating conditional statements and string comparisons:
+
+- `W03E01.java` — Basic `if` statements with comparison operators (>=, <).
+- `W03E02.java` — Using `if-else if-else` statements with logical operators (&&, ||) for range checking.
+- `W03E03.java` — Compound statements within `if` blocks (multiple statements in one condition).
+- `W03E04.java` — Multiple conditions with `if-else if-else` and compound statements.
+- `W03E05.java` — String comparison using `equals()` and `equalsIgnoreCase()` methods.
+- `W03E06.java` — String comparison using `compareTo()` method for lexicographic ordering.
+- `W03E07.java` — Modern `switch` expression (arrow syntax) vs. traditional `switch` statement with `break`.
+- `W03E08.java` — `switch` expressions as assignments and multiple case labels (e.g., `case 1, 3, 5`).
+- `W03E09.java` — Ternary operator (`? :`) for conditional expressions and assignments.
+
 How to run
 ----------
 
