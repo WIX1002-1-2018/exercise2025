@@ -29,7 +29,8 @@ The `src/W02` folder contains simple Java examples demonstrating basic language 
 - `W02E03.java` — Demonstrates arithmetic operators, modulo, and prefix vs postfix increment behavior.
 - `W02E04.java` — Shows integer division vs. floating-point division and how casting fixes averages.
 - `W02E05.java` — String concatenation and basic console I/O using `Scanner` (reads name and age from the user).
-- `W02E06.java` — Random number generation examples (0-99) and simulating a 6-sided die roll.
+- `W02E06.java` — Random number generation using `Random` class (0-99) and simulating a 6-sided die roll.
+- `W02E07.java` — Modern random number generation using `RandomGenerator` interface (Java 17+) with various data types.
 
 Summary of Week 03 (W03)
 -------------------------
