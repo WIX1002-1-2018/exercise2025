@@ -34,6 +34,9 @@ public class W02E05 {
         System.out.print("Please enter your age: ");
         int userAge = 0;
         String ageLine = input.nextLine();
+        // We use try-catch to handle invalid input (e.g., non-numeric characters)
+        // If the user enters text instead of a number, parseInt() throws NumberFormatException
+        // The catch block prevents the program from crashing and provides a default value
         try {
             userAge = Integer.parseInt(ageLine.trim());
         } catch (NumberFormatException e) {
