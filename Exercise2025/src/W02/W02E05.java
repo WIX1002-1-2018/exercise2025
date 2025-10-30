@@ -17,7 +17,7 @@ public class W02E05 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-         String firstName = "Badrul";
+        String firstName = "Badrul";
         String lastName = "Hisham";
         String fullName = firstName + " " + lastName; // Concatenation
         System.out.println("Full Name: " + fullName);
@@ -32,7 +32,16 @@ public class W02E05 {
 
         // Prompt the user for their age
         System.out.print("Please enter your age: ");
-        int userAge = input.nextInt();
+        int userAge = 0;
+        String ageLine = input.nextLine();
+        try {
+            userAge = Integer.parseInt(ageLine.trim());
+        } catch (NumberFormatException e) {
+            System.out.println("Invalid age entered. Using 0 as default.");
+        }
+
+        // Close scanner when done
+        input.close();
 
         // --- Console Output Example ---
         System.out.println("\nHello, " + userName + "! You are " + userAge + " years old.");
