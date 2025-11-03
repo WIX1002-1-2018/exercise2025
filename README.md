@@ -89,6 +89,5 @@ Students are free to clone this repository to any Java IDE:
 Notes
 -----
 - These examples are small, self-contained learning exercises intended for beginners.
-- Lab exercises (W02L01, W02L03, W02L05) demonstrate practical problem-solving with formulas, random numbers, and digit manipulation.
-- If you want, I can extend this README with running instructions per OS, or add a simple build script (Makefile) or Gradle/Maven configuration.
+
 
