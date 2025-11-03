@@ -31,8 +31,15 @@ The `src/W02` folder contains simple Java examples demonstrating basic language 
 - `W02E05.java` — String concatenation and basic console I/O using `Scanner` (reads name and age from the user).
 - `W02E06.java` — Random number generation using `Random` class (0-99) and simulating a 6-sided die roll.
 - `W02E07.java` — Modern random number generation using `RandomGenerator` interface (Java 17+) with various data types.
- - `W02T06.java` — Reads diameter input and prints the circle circumference using `C = πd` (`Math.PI`), formatted to three decimal places.
- - `W02T07.java` — Converts inches to meters (1 inch = 2.54 cm) and prints the result to two decimal places.
+
+**Lab Exercises (W02L):**
+- `W02L01.java` — Temperature conversion from Fahrenheit to Celsius using the formula: Celsius = (Fahrenheit - 32) / 1.8. Displays result in 2 decimal places with multiple examples.
+- `W02L03.java` — Generates three random numbers (range 10-50), displays the numbers, their sum, and average in 2 decimal places.
+- `W02L05.java` — Generates one random number (range 0-10000), displays the number and the sum of all its digits. Demonstrates two methods: string conversion and mathematical approach.
+
+**Tutorial Exercises (W02T):**
+- `W02T06.java` — Calculates the circumference of a circle given the diameter. Uses `Math.PI` constant and displays result in 3 decimal places. Includes input validation using `Scanner.hasNextDouble()`.
+- `W02T07.java` — Converts inches to meters using the conversion factor (1 inch = 2.54 cm). Displays result in 2 decimal places. Includes input validation for user input.
 
 Summary of Week 03 (W03)
 -------------------------
@@ -47,7 +54,6 @@ The `src/W03` folder contains Java examples demonstrating conditional statements
 - `W03E07.java` — Modern `switch` expression (arrow syntax) vs. traditional `switch` statement with `break`.
 - `W03E08.java` — `switch` expressions as assignments and multiple case labels (e.g., `case 1, 3, 5`).
 - `W03E09.java` — Ternary operator (`? :`) for conditional expressions and assignments.
-- `W03E10.java` — Nested ternary example, the clearer `if-else` equivalent, a boolean ternary, and a null-check ternary (compact examples with recommendations on readability).
 
 How to run
 ----------
@@ -61,24 +67,6 @@ Example (Unix / Linux / macOS):
 cd Exercise2025
 javac -d out $(find src -name "*.java")
 java -cp out W02.W02E01
-```
-
-If you want to run the newly added `W03E10` example specifically, compile and run it (from the repository root):
-
-```bash
-cd Exercise2025
-javac -d out $(find src -name "W03E10.java")
-java -cp out W03.W03E10
-```
-
-Sample output from `W03E10` (demonstrates grade assignment and ternary examples):
-
-```
-Score: 85 -> Grade (nested ternary): B
-Grade (if-else): B
-Result: Passed
-Short message: Excellent
-maybeNull -> No value
 ```
 
 ### Option 2: Using an IDE (NetBeans, IntelliJ IDEA, Eclipse, etc.)
@@ -101,5 +89,6 @@ Students are free to clone this repository to any Java IDE:
 Notes
 -----
 - These examples are small, self-contained learning exercises intended for beginners.
+- Lab exercises (W02L01, W02L03, W02L05) demonstrate practical problem-solving with formulas, random numbers, and digit manipulation.
 - If you want, I can extend this README with running instructions per OS, or add a simple build script (Makefile) or Gradle/Maven configuration.
 
