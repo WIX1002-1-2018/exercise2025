@@ -31,6 +31,8 @@ The `src/W02` folder contains simple Java examples demonstrating basic language 
 - `W02E05.java` — String concatenation and basic console I/O using `Scanner` (reads name and age from the user).
 - `W02E06.java` — Random number generation using `Random` class (0-99) and simulating a 6-sided die roll.
 - `W02E07.java` — Modern random number generation using `RandomGenerator` interface (Java 17+) with various data types.
+ - `W02T06.java` — Reads diameter input and prints the circle circumference using `C = πd` (`Math.PI`), formatted to three decimal places.
+ - `W02T07.java` — Converts inches to meters (1 inch = 2.54 cm) and prints the result to two decimal places.
 
 Summary of Week 03 (W03)
 -------------------------
