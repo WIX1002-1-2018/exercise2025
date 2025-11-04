@@ -54,6 +54,22 @@ The `src/W03` folder contains Java examples demonstrating conditional statements
 - `W03E07.java` — Modern `switch` expression (arrow syntax) vs. traditional `switch` statement with `break`.
 - `W03E08.java` — `switch` expressions as assignments and multiple case labels (e.g., `case 1, 3, 5`).
 - `W03E09.java` — Ternary operator (`? :`) for conditional expressions and assignments.
+- `W03E10.java` — Nested ternary operators for grade assignment and readable if-else alternatives; demonstrates when to use ternary vs. if-else.
+
+Summary of Week 04 (W04)
+-------------------------
+The `src/W04` folder contains Java examples demonstrating loop structures and control flow:
+
+- `W04E01.java` — Comparing three types of loops: `while`, `do-while`, and `for` loops with the same output.
+- `W04E02.java` — Different approaches to print even numbers: using `if` with modulo, post-increment, and loop increment by 2.
+- `W04E03.java` — Sum numbers using `do-while` loop while the number is EVEN (stops on odd number).
+- `W04E04.java` — Sum numbers using `do-while` loop until user enters -1 (sentinel value).
+- `W04E05.java` — Sum numbers using `do-while` loop while number is in range [50, 70] with AND operator.
+- `W04E06.java` — Sum numbers using `do-while` loop while number is OUTSIDE range [50, 70] with OR operator.
+- `W04E07.java` — Sum numbers using `do-while` loop while number is in ranges [0, 10] OR [20, 30] (complex conditions).
+- `W04E08.java` — Using `break` statement to exit loops: examples in for, while, nested loops, and with conditions.
+- `W04E09.java` — Using `continue` statement to skip iterations: examples in for, while, nested loops, and filtering.
+- `W04E10.java` — Using labeled loops with `break` and `continue`: breaking/continuing from nested loops and practical 2D array search.
 
 How to run
 ----------
