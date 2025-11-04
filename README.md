@@ -10,15 +10,15 @@ Summary of Week 01 (W01)
 -------------------------
 The `src/W01` folder contains introductory Java examples covering basic output and escape sequences:
 
-- `W01E01.java` — Basic `println()` - Printing simple text messages.
-- `W01E02.java` — Printing numbers and performing basic arithmetic operations.
-- `W01E03.java` — Combining text and numbers using string concatenation.
-- `W01E04.java` — Using `\n` (newline) escape sequence for multi-line output.
-- `W01E05.java` — Using `\t` (tab) escape sequence for formatted columns.
-- `W01E06.java` — Combining `\n` and `\t` escape sequences for structured output.
-- `W01E07.java` — Other escape sequences: `\"` (quotes), `\\` (backslash), and `\'` (single quote).
-- `W01E08.java` — Creating formatted output with escape sequences (student information report).
-- `W01T01.java` — A minimal "Hello World" program (prints "Hello World").
+- [`W01E01.java`](Exercise2025/src/W01/W01E01.java) — Basic `println()` - Printing simple text messages.
+- [`W01E02.java`](Exercise2025/src/W01/W01E02.java) — Printing numbers and performing basic arithmetic operations.
+- [`W01E03.java`](Exercise2025/src/W01/W01E03.java) — Combining text and numbers using string concatenation.
+- [`W01E04.java`](Exercise2025/src/W01/W01E04.java) — Using `\n` (newline) escape sequence for multi-line output.
+- [`W01E05.java`](Exercise2025/src/W01/W01E05.java) — Using `\t` (tab) escape sequence for formatted columns.
+- [`W01E06.java`](Exercise2025/src/W01/W01E06.java) — Combining `\n` and `\t` escape sequences for structured output.
+- [`W01E07.java`](Exercise2025/src/W01/W01E07.java) — Other escape sequences: `\"` (quotes), `\\` (backslash), and `\'` (single quote).
+- [`W01E08.java`](Exercise2025/src/W01/W01E08.java) — Creating formatted output with escape sequences (student information report).
+- [`W01T01.java`](Exercise2025/src/W01/W01T01.java) — A minimal "Hello World" program (prints "Hello World").
 
 Summary of Week 02 (W02)
 -------------------------
@@ -60,17 +60,17 @@ Summary of Week 04 (W04)
 -------------------------
 The `src/W04` folder contains Java examples demonstrating loop structures and control flow:
 
-- `W04E01.java` — Comparing three types of loops: `while`, `do-while`, and `for` loops with the same output.
-- `W04E02.java` — Different approaches to print even numbers: using `if` with modulo, post-increment, and loop increment by 2.
-- `W04E03.java` — Sum numbers using `do-while` loop while the number is EVEN (stops on odd number).
-- `W04E04.java` — Sum numbers using `do-while` loop until user enters -1 (sentinel value).
-- `W04E05.java` — Sum numbers using `do-while` loop while number is in range [50, 70] with AND operator.
-- `W04E06.java` — Sum numbers using `do-while` loop while number is OUTSIDE range [50, 70] with OR operator.
-- `W04E07.java` — Sum numbers using `do-while` loop while number is in ranges [0, 10] OR [20, 30] (complex conditions).
-- `W04E08.java` — Using `break` statement to exit loops: examples in for, while, nested loops, and with conditions.
-- `W04E09.java` — Using `continue` statement to skip iterations: examples in for, while, nested loops, and filtering.
-- `W04E10.java` — Using labeled loops with `break` and `continue`: breaking/continuing from nested loops and practical 2D array search.
-- `W04E11.java` — Enhanced for loop (for-each loop): iterating through arrays and collections; comparison with traditional for loop; when to use each.
+- [`W04E01.java`](Exercise2025/src/W04/W04E01.java) — Comparing three types of loops: `while`, `do-while`, and `for` loops with the same output.
+- [`W04E02.java`](Exercise2025/src/W04/W04E02.java) — Different approaches to print even numbers: using `if` with modulo, post-increment, and loop increment by 2.
+- [`W04E03.java`](Exercise2025/src/W04/W04E03.java) — Sum numbers using `do-while` loop while the number is EVEN (stops on odd number).
+- [`W04E04.java`](Exercise2025/src/W04/W04E04.java) — Sum numbers using `do-while` loop until user enters -1 (sentinel value).
+- [`W04E05.java`](Exercise2025/src/W04/W04E05.java) — Sum numbers using `do-while` loop while number is in range [50, 70] with AND operator.
+- [`W04E06.java`](Exercise2025/src/W04/W04E06.java) — Sum numbers using `do-while` loop while number is OUTSIDE range [50, 70] with OR operator.
+- [`W04E07.java`](Exercise2025/src/W04/W04E07.java) — Sum numbers using `do-while` loop while number is in ranges [0, 10] OR [20, 30] (complex conditions).
+- [`W04E08.java`](Exercise2025/src/W04/W04E08.java) — Using `break` statement to exit loops: examples in for, while, nested loops, and with conditions.
+- [`W04E09.java`](Exercise2025/src/W04/W04E09.java) — Using `continue` statement to skip iterations: examples in for, while, nested loops, and filtering.
+- [`W04E10.java`](Exercise2025/src/W04/W04E10.java) — Using labeled loops with `break` and `continue`: breaking/continuing from nested loops and practical 2D array search.
+- [`W04E11.java`](Exercise2025/src/W04/W04E11.java) — Enhanced for loop (for-each loop): iterating through arrays and collections; comparison with traditional for loop; when to use each.
 
 How to run
 ----------
