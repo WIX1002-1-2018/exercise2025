@@ -70,6 +70,7 @@ The `src/W04` folder contains Java examples demonstrating loop structures and co
 - `W04E08.java` — Using `break` statement to exit loops: examples in for, while, nested loops, and with conditions.
 - `W04E09.java` — Using `continue` statement to skip iterations: examples in for, while, nested loops, and filtering.
 - `W04E10.java` — Using labeled loops with `break` and `continue`: breaking/continuing from nested loops and practical 2D array search.
+- `W04E11.java` — Enhanced for loop (for-each loop): iterating through arrays and collections; comparison with traditional for loop; when to use each.
 
 How to run
 ----------
