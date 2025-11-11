@@ -16,10 +16,16 @@ public class W05E04 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int num;
+<<<<<<< HEAD
         int count = 0; // Counter to track number of attempts
         
         // Do-while loop ensures we get at least one input
         // Loop continues until user enters a positive number
+=======
+        int count = 0;
+        System.out.print("Enter a positive nu");
+        num = sc.nextInt();
+>>>>>>> b51288b (message)
         do {
             System.out.print("Enter a positive number: ");
             num = sc.nextInt();
