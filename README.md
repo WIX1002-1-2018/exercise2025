@@ -82,7 +82,7 @@ Summary of Week 05 (W05)
 The `src/W05` folder contains Java examples demonstrating different loop types, input validation, and control structures:
 
 - [`W05E01.java`](Exercise2025/src/W05/W05E01.java) — Comparing three loop types: `for`, `while`, and `do-while` loops printing even numbers 2-20. Shows how all three loops can produce identical output. (Original author: [@jitesh1059](https://github.com/jitesh1059))
-- [`W05E02.java`](Exercise2025/src/W05/W05E02.java) — While loop with `break` statement: infinite loop `while(true)` with sentinel value (0) to exit and sum numbers. (Original author: [@ChoiJS](https://github.com/ChoiJS))
+- [`W05E02.java`](Exercise2025/src/W05/W05E02.java) — While loop with `break` statement: infinite loop `while(true)` with sentinel value (0) to exit and sum numbers. (Original author: [@ChoiJS](https://github.com/flyingshuriken))
 - [`W05E02A.java`](Exercise2025/src/W05/W05E02A.java) — Do-while loop alternative to W05E02: achieves same result using do-while structure with condition at end. (Original author: [@jitesh1059](https://github.com/jitesh1059))
 - [`W05E03.java`](Exercise2025/src/W05/W05E03.java) — String input validation with `equals()`: while loop with break, validates "yes" or "no" input with error messages.
 - [`W05E03A.java`](Exercise2025/src/W05/W05E03A.java) — Compact do-while loop: inline assignment in condition with `equalsIgnoreCase()` for case-insensitive comparison. (Original author: LUO YANHAO)
