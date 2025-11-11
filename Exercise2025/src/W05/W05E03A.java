@@ -12,6 +12,7 @@ public class W05E03A {
         String str;
         do{
             System.out.print("Do you want to continue?(yes/no):");
+            
         }while(!(str=inPut.next()).equalsIgnoreCase("No"));
     }
 
