@@ -1,4 +1,9 @@
 package W05;
+
+/*
+ * @author Muhd Fathi Nuqman
+ */
+
 import java.util.Scanner;
 
 public class W05E12 {
