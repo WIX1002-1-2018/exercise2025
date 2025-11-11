@@ -16,6 +16,8 @@ public class W05E03A {
             if (res.equalsIgnoreCase("no"))
                 isTrue = false;
         }
+        System.out.println("Program ended.");
+        scanner.close();
     }
 
 }
