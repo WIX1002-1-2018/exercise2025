@@ -16,8 +16,9 @@ public class W05E05 {
             if (input%2==0) even++;
             else odd++;
         }
-System.out.println("Total even numbers: " + even);
-System.out.println("Total odd numbers: " + odd);
+        System.out.println("Total even numbers: " + even);
+        System.out.println("Total odd numbers: " + odd);
+        System.out.println("Total numbers: " + (odd+even));
         sc.close();
     }
 }
