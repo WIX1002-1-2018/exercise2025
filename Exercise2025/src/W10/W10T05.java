@@ -6,7 +6,7 @@ package W10;
 
 /**
  *
- * @author pensyarah
+ * @author pensyarah add a new file
  */
 public class W10T05 {
 
@@ -27,3 +27,4 @@ public class W10T05 {
     }
     
 }
+
