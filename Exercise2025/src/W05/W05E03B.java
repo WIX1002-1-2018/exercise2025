@@ -10,7 +10,7 @@ public class W05E03{
             System.out.print("Do you want to continue?(yes / no): ");
             ans = input.next();
         }
-        while(!ans.equalsIgnoreCase("No") || !ans.equalsIgnoreCase("NO") || !ans.equalsIgnoreCase("no") || !ans.equalsIgnoreCase("nO") );
+        while(!ans.equalsIgnoreCase("No") || ans.equalsIgnoreCase("Yes") );
         input.close();
     }
 }
