@@ -1,3 +1,5 @@
+package W05;
+
 import java.util.Scanner;
 //import java.util.InputMismatchException;
 
