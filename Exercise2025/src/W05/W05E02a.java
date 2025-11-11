@@ -2,7 +2,7 @@ package W05;
 
 import java.util.Scanner;
 
-public class W05E02 {
+public class W05E02a {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int sum = 0;
