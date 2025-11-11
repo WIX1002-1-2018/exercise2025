@@ -1,0 +1,27 @@
+import java.util.Scanner;
+class W0503E {
+    public static void main(String[] args) {
+        //ask how many numbers then repeat for that many times
+        //count even numbers and odd numbers total
+        Scanner input = new Scanner(System.in);
+        System.out.print("How many numbers will you enter?: ");
+        int nums = input.nextInt();
+        int totaleven=0,totalodd=0, sumeven=0, sumodd=0;
+        for (int i=1; i<=nums; i++){
+            System.out.print("Enter number " + i + ": ");
+            int numentered = input.nextInt();
+            if (numentered%2==0){
+                totaleven++;
+                sumeven+=numentered;
+            }
+            else{
+                totalodd++;
+                sumodd+=numentered;
+            }
+        }
+        System.out.println("Total even numbers: "+ totaleven);
+        System.out.println("Total odd numbers: "+ totalodd);
+        System.out.println("Sum of even numbers: "+ sumeven);
+        System.out.println("Sum of odd numbers: "+ sumodd);
+}
+}
