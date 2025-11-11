@@ -18,6 +18,6 @@ public class W05E02 {
 
         }
 
-        System.out.println("Total: " + sum);
+        System.out.println("The total sum is: " + sum);
     }
 }
