@@ -1,19 +1,16 @@
-package W05;
+import java.util.Scanner;
 
-public class W05E03 {
-    public static void main(String[] args) {
-    String[] sentence = {"the quick brown the fox", "jumps over the lazy dog", "the end"};
-    int count = 0;
+public class W05E03{
+    public static void main(String[] args){
+        Scanner input = new Scanner(System.in);
 
-    for (String s : sentence) {
-        String[] words = s.split(" ");
-        for (String word : words) {
-        if (word.equals("the")) {
-            count++;
+        String ans;
+
+        do{
+            System.out.print("Do you want to continue?(yes / no): ");
+            ans = input.next();
         }
-        }
+        while(!ans.equalsIgnoreCase("No") || !ans.equalsIgnoreCase("NO") || !ans.equalsIgnoreCase("no") || !ans.equalsIgnoreCase("nO") );
+        input.close();
     }
-
-    System.out.println("The word 'the' occurs " + count + " times.");
-        }
 }
