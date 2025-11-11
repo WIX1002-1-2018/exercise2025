@@ -8,11 +8,13 @@ import java.util.Scanner;
 public class W05E03A {
 
     public static void main(String[] args) {
-        Scanner inPut=new Scanner(System.in);
+        Scanner inPut = new Scanner(System.in);
         String str;
-        do{
+        do {
             System.out.print("Do you want to continue?(yes/no):");
-        }while(!(str=inPut.next()).equalsIgnoreCase("No"));
+        } while (!(str = inPut.next()).equalsIgnoreCase("No"));
     }
 
 }
+
+// n
