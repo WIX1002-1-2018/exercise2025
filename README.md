@@ -98,7 +98,36 @@ The `src/W05` folder contains Java examples demonstrating different loop types, 
 How to run
 ----------
 
-### Option 1: Using Command Line
+### Option 1: Using Dev Container in VS Code (Recommended)
+This repository includes a `.devcontainer` configuration for the best development experience with VS Code:
+
+1. **Prerequisites:**
+   - Install [Visual Studio Code](https://code.visualstudio.com/)
+   - Install [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+   - Install the [Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) for VS Code
+
+2. **Open in Container:**
+   ```bash
+   git clone https://github.com/WIX1002-1-2018/exercise2025.git
+   cd exercise2025
+   code .
+   ```
+   - VS Code will detect the `.devcontainer` folder
+   - Click "Reopen in Container" when prompted (or press `F1` and select "Dev Containers: Reopen in Container")
+   - Wait for the container to build (first time only)
+
+3. **Run a program:**
+   - Navigate to any `.java` file in the `Exercise2025/src` folder
+   - Right-click and select "Run Java" or click the "Run" button above the `main` method
+   - Output will appear in the integrated terminal
+
+**Benefits of Dev Container:**
+- Pre-configured Java development environment
+- Consistent setup across all machines
+- No need to install Java locally
+- All dependencies and tools included
+
+### Option 2: Using Command Line
 From the `Exercise2025` directory you can compile and run any example using `javac` and `java`.
 
 Example (Unix / Linux / macOS):
@@ -109,7 +138,7 @@ javac -d out $(find src -name "*.java")
 java -cp out W02.W02E01
 ```
 
-### Option 2: Using an IDE (NetBeans, IntelliJ IDEA, Eclipse, etc.)
+### Option 3: Using an IDE (NetBeans, IntelliJ IDEA, Eclipse, etc.)
 Students are free to clone this repository to any Java IDE:
 
 1. **Clone the repository:**
