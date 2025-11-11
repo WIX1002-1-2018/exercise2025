@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class W05E06 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.print("Enterethe length of side: ");
+        System.out.print("Enter the length of side: ");
         int length = input.nextInt();
         char p = 'P';
        
