@@ -19,6 +19,7 @@ public class W05E05 {
         System.out.println("Total even numbers: " + even);
         System.out.println("Total odd numbers: " + odd);
         System.out.println("Total numbers: " + (odd+even));
+        sc.nextInt();
         sc.close();
     }
 }
