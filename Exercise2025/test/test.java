@@ -7,12 +7,19 @@ import java.util.Scanner;
 public class test {
     public static void main(String[] args) {
 	Scanner s=new Scanner(System.in);
-        System.out.print("Enter a positive number: ");
-        int check=s.nextInt();
-	while(check<1){
-            System.out.print("Please enter a positive number: ");
-	    check=s.nextInt();
-        };
-        System.out.println("You entered: "+check);
+        System.out.print("How many numbers will you enter?: ");
+        int number=s.nextInt();
+        int even=0, odd=0, input;
+        for(int i=1;i<=number;i++){
+            System.out.print("Enter number "+i+": ");
+            input=s.nextInt();
+            if(input%2==0){
+                even++;
+            }else{
+                odd++;
+            }
+        }
+        System.out.println("Total even numbers: "+even);
+        System.out.println("Total odd numbers: "+odd);
     }
 }
