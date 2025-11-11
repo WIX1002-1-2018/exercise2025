@@ -45,6 +45,7 @@ The `src/W03` folder contains Java examples demonstrating conditional statements
 - `W03E07.java` — Modern `switch` expression (arrow syntax) vs. traditional `switch` statement with `break`.
 - `W03E08.java` — `switch` expressions as assignments and multiple case labels (e.g., `case 1, 3, 5`).
 - `W03E09.java` — Ternary operator (`? :`) for conditional expressions and assignments.
+- `W03E10.java` — Nested ternary example, the clearer `if-else` equivalent, a boolean ternary, and a null-check ternary (compact examples with recommendations on readability).
 
 How to run
 ----------
@@ -58,6 +59,24 @@ Example (Unix / Linux / macOS):
 cd Exercise2025
 javac -d out $(find src -name "*.java")
 java -cp out W02.W02E01
+```
+
+If you want to run the newly added `W03E10` example specifically, compile and run it (from the repository root):
+
+```bash
+cd Exercise2025
+javac -d out $(find src -name "W03E10.java")
+java -cp out W03.W03E10
+```
+
+Sample output from `W03E10` (demonstrates grade assignment and ternary examples):
+
+```
+Score: 85 -> Grade (nested ternary): B
+Grade (if-else): B
+Result: Passed
+Short message: Excellent
+maybeNull -> No value
 ```
 
 ### Option 2: Using an IDE (NetBeans, IntelliJ IDEA, Eclipse, etc.)
