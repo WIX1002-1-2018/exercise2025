@@ -1,4 +1,4 @@
-/*
+/* ANG KAI XIN 23113456
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
@@ -15,13 +15,14 @@ public class L4Q2 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        int num;
+        int num; int sum = 0;
         do{
             System.out.println("guess a number: ");
             Scanner scanner = new Scanner(System.in);
             num = scanner.nextInt();
 //            if (num == 0) break;
 //            else continue;
+            sum = sum + num;
         } while (num != 0);
         System.out.println("correct num, you're out of the loop now");
     }
