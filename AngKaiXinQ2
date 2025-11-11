@@ -1,0 +1,29 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package l4q2;
+import java.util.Scanner;
+/**
+ *
+ * @author 60175
+ */
+public class L4Q2 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        int num;
+        do{
+            System.out.println("guess a number: ");
+            Scanner scanner = new Scanner(System.in);
+            num = scanner.nextInt();
+//            if (num == 0) break;
+//            else continue;
+        } while (num != 0);
+        System.out.println("correct num, you're out of the loop now");
+    }
+    
+}
