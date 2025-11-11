@@ -7,7 +7,7 @@ public class W05E04 {
         Scanner sc = new Scanner(System.in);
         int num;
         int count = 0;
-        System.out.print("Enter a positive nu");
+        System.out.print("Enter a positive number: ");
         num = sc.nextInt();
         do {
 
