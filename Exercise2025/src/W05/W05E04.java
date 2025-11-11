@@ -23,7 +23,7 @@ public class W05E04 {
         // Loop continues until user enters a positive number
 =======
         int count = 0;
-        System.out.print("Enter a positive number: ");
+        System.out.print("Enter a positive nu");
         num = sc.nextInt();
 >>>>>>> b51288b (message)
         do {
