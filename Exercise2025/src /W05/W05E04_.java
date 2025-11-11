@@ -15,4 +15,5 @@ public class W05E04 {
         System.out.printf("You entered:%d\n",a);
         System.out.printf("You have entered %d times\n",b);
     }
+
 }
