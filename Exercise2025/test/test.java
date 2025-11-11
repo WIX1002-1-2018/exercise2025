@@ -3,14 +3,16 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 
-/**
- *
- * @author 星飞
- */
+import java.util.Scanner;
 public class test {
     public static void main(String[] args) {
-	for(int i=2;i<21;i+=2){
-            System.out.println(i+" ");
-	}
+	Scanner s=new Scanner(System.in);
+        System.out.print("Enter a positive number: ");
+        int check=s.nextInt();
+	while(check<1){
+            System.out.print("Please enter a positive number: ");
+	    check=s.nextInt();
+        };
+        System.out.println("You entered: "+check);
     }
 }
