@@ -1,4 +1,5 @@
 
+package W05;
 import java.util.Scanner;
 public class W05E03B {
 
