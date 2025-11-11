@@ -12,7 +12,12 @@ public class W05E03A {
         String str;
         do {
             System.out.print("Do you want to continue?(yes/no):");
+<<<<<<< HEAD
         } while (!(str = inPut.next()).equalsIgnoreCase("No"));
+=======
+            
+        }while(!(str=inPut.next()).equalsIgnoreCase("No"));
+>>>>>>> 77e660c5037c2f8968e4ed2b74ea1f8b772e336a
     }
 
 }
