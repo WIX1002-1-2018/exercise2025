@@ -92,6 +92,7 @@ The `src/W05` folder contains Java examples demonstrating different loop types, 
 - [`W05E05.java`](Exercise2025/src/W05/W05E05.java) — Counting and summing even/odd numbers: for loop with modulo operator, multiple counters and accumulators.
 - [`W05E05A.java`](Exercise2025/src/W05/W05E05A.java) — Alternative with while loop: manual counter management, counts even/odd numbers (no sums).
 - [`W05E05B.java`](Exercise2025/src/W05/W05E05B.java) — Simplified version of W05E05: more compact code with combined variable declarations, counts and sums even/odd numbers with clearer output formatting.
+- [`W05E06.java`](Exercise2025/src/W05/W05E06.java) — Nested loops for square pattern: uses nested for loops to create a square grid of characters. (Author: [@FATHIR](https://github.com/FATHIR))
 
 
 How to run
