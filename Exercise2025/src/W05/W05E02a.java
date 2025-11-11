@@ -15,4 +15,4 @@ public class W05E02a {
 
         System.out.println("The total sum is: " + sum);
     }
-}
+}   
