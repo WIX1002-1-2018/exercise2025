@@ -12,7 +12,7 @@ public class W05E05 {
         int ocounter = 0;
         int osum = 0;
         for (int j = 0; j < i; j++) {
-            System.out.printf("Enter number %d:", j + 1);
+            System.out.printf("Enter number %d: ", j + 1);
             int num = scanner.nextInt();
             if (num % 2 == 0) {
                 ecounter += 1;
