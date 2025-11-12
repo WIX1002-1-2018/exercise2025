@@ -98,6 +98,8 @@ The `src/W05` folder contains Java examples demonstrating different loop types, 
 - [`W05E10.java`](Exercise2025/src/W05/W05E10.java) — Number triangle pattern generator: uses nested loops to create incrementing number patterns, outer loop controls rows, inner loop prints sequential numbers for each row. (Original author: [@Shao0913](https://github.com/Shao0913))
 - [`W05E13.java`](Exercise2025/src/W05/W05E13.java) — Christmas tree pattern generator: advanced nested loops creating a pyramid tree with trunk, uses arithmetic series for dimension calculations and space positioning for symmetrical output. (Original author: [@muhdnuqman](https://github.com/muhdnuqman))
 
+ - [`W05E11.java`](Exercise2025/src/W05/W05E11.java) — Prime key validator: repeatedly prompts for an integer > 50, checks if it is prime, and only accepts valid prime keys. Demonstrates input validation, prime checking, and user feedback. (Original author: [@chua1](https://github.com/chua1) / Chua Pei Ying)
+
 
 How to run
 ----------
