@@ -81,12 +81,12 @@ Summary of Week 05 (W05)
 -------------------------
 The `src/W05` folder contains Java examples demonstrating different loop types, input validation, and control structures:
 
-- [`W05E01.java`](Exercise2025/src/W05/W05E01.java) — Comparing three loop types: `for`, `while`, and `do-while` loops printing even numbers 2-20. Shows how all three loops can produce identical output. (Original author: [@jitesh1059](https://github.com/jitesh1059))
+- [`W05E01.java`](Exercise2025/src/W05/W05E01.java) — Comparing three loop types: `for`, `while`, and `do-while` loops printing even numbers 2-20. Shows how all three loops can produce identical output. (Original author: [@jitesh1059](https://github.com/jitesh1059), modified by [@hafidzmrizky](https://github.com/hafidzmrizky))
 - [`W05E02.java`](Exercise2025/src/W05/W05E02.java) — While loop with `break` statement: infinite loop `while(true)` with sentinel value (0) to exit and sum numbers. (Original author: [@ChoiJS](https://github.com/flyingshuriken))
 - [`W05E02A.java`](Exercise2025/src/W05/W05E02A.java) — Do-while loop alternative to W05E02: achieves same result using do-while structure with condition at end. (Original author: [@jitesh1059](https://github.com/jitesh1059))
 - [`W05E03.java`](Exercise2025/src/W05/W05E03.java) — String input validation with `equals()`: while loop with break, validates "yes" or "no" input with error messages.
-- [`W05E03A.java`](Exercise2025/src/W05/W05E03A.java) — Compact do-while loop: inline assignment in condition with `equalsIgnoreCase()` for case-insensitive comparison. (Original author: LUO YANHAO)
-- [`W05E03B.java`](Exercise2025/src/W05/W05E03B.java) — Input validation with boolean flag: uses flag variable to track validity and provide dynamic prompts. (Original author: LUO YANHAO)
+- [`W05E03A.java`](Exercise2025/src/W05/W05E03A.java) — Compact do-while loop: inline assignment in condition with `equalsIgnoreCase()` for case-insensitive comparison. (Original author: [@LuoYanHao-2025](https://github.com/LuoYanHao-2025))
+- [`W05E03B.java`](Exercise2025/src/W05/W05E03B.java) — Input validation with boolean flag: uses flag variable to track validity and provide dynamic prompts. (Original author: [@LuoYanHao-2025](https://github.com/LuoYanHao-2025))
 - [`W05E04.java`](Exercise2025/src/W05/W05E04.java) — Positive number validation: do-while loop ensures user enters positive number, counts retry attempts. (Original author: TEH JIA JIE)
 - [`W05E04C.java`](Exercise2025/src/W05/W05E04C.java) — Alternative validation approach: cleaner do-while loop with conditional prompting inside loop, uses `printf()` for formatted output.
 - [`W05E05.java`](Exercise2025/src/W05/W05E05.java) — Counting and summing even/odd numbers: for loop with modulo operator, multiple counters and accumulators. (Original author: [@IvanFong](https://github.com/IvanFong))
@@ -94,6 +94,9 @@ The `src/W05` folder contains Java examples demonstrating different loop types, 
 - [`W05E05B.java`](Exercise2025/src/W05/W05E05B.java) — Simplified version of W05E05: more compact code with combined variable declarations, counts and sums even/odd numbers with clearer output formatting.
 - [`W05E06.java`](Exercise2025/src/W05/W05E06.java) — Nested loops for square pattern: uses nested for loops to create a square grid of characters. (Original author: [@Zzfathir](https://github.com/Zzfathir))
 - [`W05E08.java`](Exercise2025/src/W05/W05E08.java) — Finding maximum and minimum values: uses `Integer.MAX_VALUE` and `Integer.MIN_VALUE` for initialization, validates input range, and tracks highest/lowest scores.
+- [`W05E09.java`](Exercise2025/src/W05/W05E09.java) — Password strength checker: analyzes password characters using `Character` class methods (isUpperCase, isLowerCase, isDigit), classifies strength as Strong/Medium/Weak based on character type diversity. (Original author: [@dejettss](https://github.com/dejettss))
+- [`W05E10.java`](Exercise2025/src/W05/W05E10.java) — Number triangle pattern generator: uses nested loops to create incrementing number patterns, outer loop controls rows, inner loop prints sequential numbers for each row. (Original author: [@Shao0913](https://github.com/Shao0913))
+- [`W05E13.java`](Exercise2025/src/W05/W05E13.java) — Christmas tree pattern generator: advanced nested loops creating a pyramid tree with trunk, uses arithmetic series for dimension calculations and space positioning for symmetrical output. (Original author: [@muhdnuqman](https://github.com/muhdnuqman))
 
 
 How to run

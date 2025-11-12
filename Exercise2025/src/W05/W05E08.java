@@ -19,6 +19,8 @@ import java.util.Scanner;
  * 4. Validate each input (0-100000 range)
  * 5. Update min/max only for valid inputs
  * 6. Display results
+ * 
+ * @author Badrul Anuar
  */
 public class W05E08 {
     public static void main(String[] args) {

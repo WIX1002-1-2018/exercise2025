@@ -18,6 +18,8 @@ import java.util.Scanner;
  * 3. Determine if each number is even or odd using modulo
  * 4. Count and sum even and odd numbers separately
  * 5. Display statistics
+ * 
+ * @author IvanFong
  */
 public class W05E05 {
     public static void main(String[] args) {

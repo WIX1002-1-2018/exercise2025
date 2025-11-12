@@ -11,6 +11,8 @@ import java.util.Scanner;
  * - Break statement to exit loop
  * - Accumulator pattern (sum += num)
  * - Sentinel value (0 to quit)
+ * 
+ * @author ChoiJS
  */
 public class W05E02 {
     public static void main(String[] args) {

@@ -15,6 +15,8 @@ import java.util.Scanner;
  * - Uses while loop instead of for loop
  * - Manually manages loop counter
  * - Does not calculate sums (only counts)
+ * 
+ * @author Zahran
  */
 public class W05E05A {
     public static void main(String[] args) {

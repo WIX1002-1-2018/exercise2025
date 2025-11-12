@@ -9,6 +9,9 @@ package W05;
  * - While loop: condition checked before loop body executes
  * - Do-while loop: condition checked after loop body executes (executes at least once)
  * - All three loops can produce the same output
+ * 
+ * @author jitesh1059
+ * @modified Hafidz M Rizky
  */
 public class W05E01 {
     public static void main(String[] args) {

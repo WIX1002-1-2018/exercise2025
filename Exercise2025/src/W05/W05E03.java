@@ -11,6 +11,8 @@ import java.util.Scanner;
  * - Input validation with error messages
  * - Break statement to exit loop
  * - Handling multiple conditions with if-else if-else
+ * 
+ * @author Badrul Anuar
  */
 public class W05E03 {
     public static void main(String[] args) {

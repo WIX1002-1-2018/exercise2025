@@ -13,6 +13,8 @@ import java.util.Scanner;
  * - Compact code style (advanced technique)
  * 
  * Note: This is a more compact version of W05E03B
+ * 
+ * @author LUO YANHAO
  */
 public class W05E03A {
     public static void main(String[] args) {
