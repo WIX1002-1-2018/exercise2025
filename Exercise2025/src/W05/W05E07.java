@@ -2,7 +2,7 @@ package W05;
 import java.util.Scanner;
 /**
  * W05E07 - Summing multiple user inputs
- * Demonstrates : Summing multiple user inputs until a sentinel value ("done") is entered
+ * Demonstrates : Keep asking for user input until a sentinel value ("done") is entered then display the sum of the inputs
  * 
  * Key Concepts:
  * - Using while loop to continuously accept user input
