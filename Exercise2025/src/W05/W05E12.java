@@ -10,7 +10,7 @@ public class W05E12 {
         Scanner in = new Scanner(System.in);
         int n1 = 0, n2 = 1, tempn2, month = 1, inputmonth;
 
-        System.out.print("Input month: ");
+        System.out.print("How many months to simulate?: ");
         inputmonth = in.nextInt();
 
         while (true) {
