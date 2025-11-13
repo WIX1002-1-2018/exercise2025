@@ -98,9 +98,9 @@ The `src/W05` folder contains Java examples demonstrating different loop types, 
 - [`W05E09.java`](Exercise2025/src/W05/W05E09.java) — Password strength checker: analyzes password characters using `Character` class methods (isUpperCase, isLowerCase, isDigit), classifies strength as Strong/Medium/Weak based on character type diversity. (Original author: [@dejettss](https://github.com/dejettss))
 - [`W05E10.java`](Exercise2025/src/W05/W05E10.java) — Number triangle pattern generator: uses nested loops to create incrementing number patterns, outer loop controls rows, inner loop prints sequential numbers for each row. (Original author: [@shaoern0606](https://github.com/shaoern0606))
  - [`W05E11.java`](Exercise2025/src/W05/W05E11.java) — Prime key validator: repeatedly prompts for an integer > 50, checks if it is prime, and only accepts valid prime keys. Demonstrates input validation, prime checking, and user feedback. (Original author: [@chua1](https://github.com/chua1) / Chua Pei Ying)
+ - [`W05E12.java`](Exercise2025/src/W05/W05E12.java) — Fibonacci rabbit population simulation: prints the number of rabbit pairs for each month using the Fibonacci sequence, stops if the population exceeds 1000. (Original author: [@muhdnuqman](https://github.com/muhdnuqman))
 - [`W05E13.java`](Exercise2025/src/W05/W05E13.java) — Christmas tree pattern generator: advanced nested loops creating a pyramid tree with trunk, uses arithmetic series for dimension calculations and space positioning for symmetrical output. (Original author: [@muhdnuqman](https://github.com/muhdnuqman))
 
-- [`W05E12.java`](Exercise2025/src/W05/W05E12.java) — Fibonacci rabbit population simulation: prints the number of rabbit pairs for each month using the Fibonacci sequence, stops if the population exceeds 1000. (Original author: [@muhdnuqman](https://github.com/muhdnuqman))
 
 
 
