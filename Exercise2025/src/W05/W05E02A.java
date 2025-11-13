@@ -14,6 +14,8 @@ import java.util.Scanner;
  * Difference from W05E02:
  * - Uses do-while instead of while(true) with break
  * - Condition checked at the end of loop
+ * 
+ * @author jitesh1059
  */
 public class W05E02A {
     public static void main(String[] args) {

@@ -14,6 +14,8 @@ import java.util.Scanner;
  * - Input validation with user feedback
  * 
  * Note: This version provides different prompts based on whether the input was valid
+ * 
+ * @author LUO YANHAO
  */
 public class W05E03B {
     public static void main(String[] args) {

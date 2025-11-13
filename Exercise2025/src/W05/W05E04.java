@@ -11,6 +11,8 @@ import java.util.Scanner;
  * - Counter variable to track number of attempts
  * - Conditional prompts based on input validity
  * - Input validation: ensuring number is positive (> 0)
+ * 
+ * @author TEH JIA JIE
  */
 public class W05E04 {
     public static void main(String[] args) {
