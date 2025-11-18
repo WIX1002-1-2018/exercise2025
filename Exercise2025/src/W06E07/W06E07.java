@@ -15,7 +15,7 @@ public class W06E07 {
             System.out.print(value+" ");
         }
         for (int i=1; i<20; i++){
-            for (int j=0; j<19; i++){
+            for (int j=0; j<19; j++){
                 if (number[j]>number[j+1]){
                     int temp = number[j];
                     number[j] = number[j+1];
@@ -31,7 +31,7 @@ public class W06E07 {
         }
         System.out.println("\nDescending :");
         for(int i=19; i>=0;i--){
-            System.out.print(number[i]+"");
+            System.out.print(number[i]+" ");
         }
     }
 }
