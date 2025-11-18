@@ -44,11 +44,13 @@ public class W06E09 {
         for (int i = 0; i < a.length; i++){
             if (toFind == a[i]){
                 System.out.print("Found in position " + i);
+                in.close();
                 return;  // Exit immediately when found
             }
         }
         
         // Only reaches here if not found
         System.out.print("Not found!");
+        in.close();
     }
 }

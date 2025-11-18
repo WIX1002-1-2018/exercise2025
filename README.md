@@ -114,7 +114,8 @@ The `src/W06` folder contains Java examples demonstrating arrays and array opera
 - [`W06E06.java`](Exercise2025/src/W06/W06E06.java) — String splitting: uses `String.split()` method to convert comma-separated string into array, demonstrates enhanced for-each loop. (Original author: Tey Yong Zhun)
 - [`W06E07.java`](Exercise2025/src/W06/W06E07.java) — Bubble sort algorithm: generates 20 random numbers, implements bubble sort to arrange in ascending order, displays both ascending and descending sorted arrays. (Original author: Yaseen Ayatullah Khan)
 - [`W06E08.java`](Exercise2025/src/W06/W06E08.java) — Array statistics with sorting: generates 20 random numbers, uses bubble sort, and calculates minimum (first element), maximum (last element), and sum of all elements. (Original author: Tey Yong Zhun)
-- [`W06E09.java`](Exercise2025/src/W06/W06E09.java) — Linear search: generates random array, prompts user for a number to search, performs linear search and reports position or "not found". (Original author: [@muhdnuqman](https://github.com/muhdnuqman))
+- [`W06E09.java`](Exercise2025/src/W06/W06E09.java) — Linear search algorithm: demonstrates sequential search on unsorted array with O(n) time complexity, counts comparisons to show efficiency, searches element by element from start to end. (Original author: [@muhdnuqman](https://github.com/muhdnuqman))
+- [`W06E10.java`](Exercise2025/src/W06/W06E10.java) — Binary search algorithm: demonstrates efficient divide-and-conquer search on sorted array with O(log n) time complexity, shows step-by-step search process, compares efficiency with linear search.
 
 **Tutorial Exercises (W06T):**
 - [`W06T04.java`](Exercise2025/src/W06/W06T04.java) — Counting word occurrences: searches string array for specific word ("the"), counts how many times it appears using `equals()` method.
