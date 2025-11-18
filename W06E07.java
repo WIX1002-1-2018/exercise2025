@@ -15,7 +15,9 @@ public class W06E03;
     int randomNum = random.nextInt(100);
     num[j] = randomNum;
     j + 1;
-    System.out.println("the array is: " + randomNum + "\t");
+    System.out.println("the array is: " + randomNum + "\t"); 
+  }
+  binarysearch();
   }
 
   //func to binary search
@@ -36,7 +38,8 @@ public class W06E03;
         high = middle - 1; }
       else { low = middle + 1; }
     }
-
+    System.out.println("Found in position " + middle)
+  }
     
         
     
