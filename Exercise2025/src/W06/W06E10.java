@@ -51,14 +51,14 @@ public class W06E10 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         Random rng = new Random();
-        int[] a = new int[20];
+        int[] a = new int[100];
         
         System.out.println("BINARY SEARCH DEMONSTRATION");
         System.out.println("Original array (unsorted):");
         
         // Generate random numbers
         for (int i = 0; i < a.length; i++){
-            a[i] = rng.nextInt(100);
+            a[i] = rng.nextInt(1000);
             System.out.print(a[i] + " ");
         }
         System.out.println();
