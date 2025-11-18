@@ -3,9 +3,35 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package W06E07;
-
+import java.util.Random;
 public class W06E07 {
     public static void main(String[] args) {
-        System.out.println("Hello World");
+        Random r = new Random();
+        int [] number = new int [20];
+        for (int i=0; i<20; i++){
+            number[i] = r.nextInt(100);
+        }
+        for(int value:number){
+            System.out.print(value+" ");
+        }
+        for (int i=1; i<20; i++){
+            for (int j=0; j<19; i++){
+                if (number[j]>number[j+1]){
+                    int temp = number[j];
+                    number[j] = number[j+1];
+                    number[j+1] = temp;
+                }
+            }
+        }
+        
+        System.out.println("\nBubble Sort :");
+        System.out.println("Ascending :");
+        for(int value:number){
+            System.out.print(value+" ");
+        }
+        System.out.println("\nDescending :");
+        for(int i=19; i>=0;i--){
+            System.out.print(number[i]+"");
+        }
     }
 }
