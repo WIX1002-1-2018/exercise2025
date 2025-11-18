@@ -1,3 +1,5 @@
+package W06;
+
 import java.util.Random;
 class W06E07 {
     public static void main(String[] args) {
@@ -14,9 +16,14 @@ class W06E07 {
 				nums[i] = nums[i+1];  
 				nums[i+1] = temp;
 			}
-		System.out.println("\n" + "Bubble Sort");
+		System.out.println("\n" + "Bubble Sort (Asc)");
 		for (int index = 0; index < nums.length; index++) {
-            System.out.print(nums[index] + " ");
-        }
+                        System.out.print(nums[index] + " ");
+                }
+                
+                System.out.println("\n" + "Bubble Sort (Desc");
+		for (int index = nums.length-1; index >= 0; index--) {
+                        System.out.print(nums[index] + " ");
+                }
     }
 }
