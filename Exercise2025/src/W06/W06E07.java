@@ -25,9 +25,14 @@ public class W06E07 {
 				num[i] = num[i+1];  
 				num[i+1] = temp;
 			}
-                System.out.println("Buuble Sort: ");
-                System.out.print( num[pass]+" ");
+                
         } 
+        System.out.println("\nBuuble Sort: ");
+        for(int i=0; i<num.length;i++){
+            
+            System.out.print( num[i]+" ");
+        }
+                
          	
     }
 }
