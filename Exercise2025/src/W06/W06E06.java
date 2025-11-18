@@ -1,3 +1,5 @@
+package W06;
+
 public class W06E06{
     public static void main(String[] args) {
         String str = "Ang,Tan,Fong,Ahmad,Ali";
