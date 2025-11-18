@@ -1,0 +1,10 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+class W06E06 {
+    public static void main(String[] args) {
+        String []str={"Ang","Tan","Fong","Ahmad","Ali"};
+        for (int i=0;i<str.length;i++){
+            System.out.println(str[i]);
+        }
+    }
+}
