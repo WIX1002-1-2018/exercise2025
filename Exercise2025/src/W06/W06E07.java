@@ -36,7 +36,6 @@ public class W06E07 {
         
         System.out.println("sorted:");
         for (int i = 0; i < list.length-1; i++) {
-            
             System.out.println(list[i]);
         }
         
