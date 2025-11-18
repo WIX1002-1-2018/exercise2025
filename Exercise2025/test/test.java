@@ -8,18 +8,25 @@ import java.util.Random;
 public class test {
     public static void main(String[] args) {
 Random r=new Random();
-int[] s=new int[100];
-char[] st=new char[100];
-int count=0;
-for(int i=0;i<100;i++){
-    s[i]=r.nextInt(2);
-    if(s[i]==0){
-        st[i]='F';
-        count++;
-    }else{
-        st[i]='M';
-    }
-System.out.println(count+" student(s)");
+int[] a=new int[20];
+for(int i=0;i<20;i++){
+    a[i]=r.nextInt(100);
+    System.out.print(a[i]+" ");
 }
+System.out.println();
+System.out.println("Bubble sort");
+for(int i=1;i<20;i++){
+    for(int j=0;j<19;j++){
+        if(a[j]>a[j+1]){
+            int b=a[j];
+            a[j]=a[j+1];
+            a[j+1]=b;
+        }
+    }
+}
+for(int i=0;i<20;i++){
+    System.out.print(a[i]+" ");
+}
+System.out.println();
     }
 }
