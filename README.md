@@ -56,6 +56,11 @@ The `src/W03` folder contains Java examples demonstrating conditional statements
 - [`W03E09.java`](Exercise2025/src/W03/W03E09.java) — Ternary operator (`? :`) for conditional expressions and assignments.
 - [`W03E10.java`](Exercise2025/src/W03/W03E10.java) — Nested ternary operators for grade assignment and readable if-else alternatives; demonstrates when to use ternary vs. if-else.
 
+**Tutorial Exercises (W03T):**
+- [`W03T04.java`](Exercise2025/src/W03/W03T04.java) — Find the largest of three numbers using `if-else if` statements with comparison operators.
+- [`W03T04a.java`](Exercise2025/src/W03/W03T04a.java) — Find the largest of five numbers using sequential `if` statements to track the maximum value.
+- [`W03T05.java`](Exercise2025/src/W03/W03T05.java) — Determine if a year is a leap year using logical operators (divisible by 4 and not by 100, or divisible by 400).
+
 Summary of Week 04 (W04)
 -------------------------
 The `src/W04` folder contains Java examples demonstrating loop structures and control flow:
@@ -72,10 +77,67 @@ The `src/W04` folder contains Java examples demonstrating loop structures and co
 - [`W04E10.java`](Exercise2025/src/W04/W04E10.java) — Using labeled loops with `break` and `continue`: breaking/continuing from nested loops and practical 2D array search.
 - [`W04E11.java`](Exercise2025/src/W04/W04E11.java) — Enhanced for loop (for-each loop): iterating through arrays and collections; comparison with traditional for loop; when to use each.
 
+Summary of Week 05 (W05)
+-------------------------
+The `src/W05` folder contains Java examples demonstrating different loop types, input validation, and control structures:
+
+- [`W05E01.java`](Exercise2025/src/W05/W05E01.java) — Comparing three loop types: `for`, `while`, and `do-while` loops printing even numbers 2-20. Shows how all three loops can produce identical output. (Original author: [@jitesh1059](https://github.com/jitesh1059), modified by [@hafidzmrizky](https://github.com/hafidzmrizky))
+- [`W05E02.java`](Exercise2025/src/W05/W05E02.java) — While loop with `break` statement: infinite loop `while(true)` with sentinel value (0) to exit and sum numbers. (Original author: [@ChoiJS](https://github.com/flyingshuriken))
+- [`W05E02A.java`](Exercise2025/src/W05/W05E02A.java) — Do-while loop alternative to W05E02: achieves same result using do-while structure with condition at end. (Original author: [@jitesh1059](https://github.com/jitesh1059))
+- [`W05E03.java`](Exercise2025/src/W05/W05E03.java) — String input validation with `equals()`: while loop with break, validates "yes" or "no" input with error messages.
+- [`W05E03A.java`](Exercise2025/src/W05/W05E03A.java) — Compact do-while loop: inline assignment in condition with `equalsIgnoreCase()` for case-insensitive comparison. (Original author: [@LuoYanHao-2025](https://github.com/LuoYanHao-2025))
+- [`W05E03B.java`](Exercise2025/src/W05/W05E03B.java) — Input validation with boolean flag: uses flag variable to track validity and provide dynamic prompts. (Original author: [@LuoYanHao-2025](https://github.com/LuoYanHao-2025))
+- [`W05E04.java`](Exercise2025/src/W05/W05E04.java) — Positive number validation: do-while loop ensures user enters positive number, counts retry attempts. (Original author: TEH JIA JIE)
+- [`W05E04C.java`](Exercise2025/src/W05/W05E04C.java) — Alternative validation approach: cleaner do-while loop with conditional prompting inside loop, uses `printf()` for formatted output.
+- [`W05E05.java`](Exercise2025/src/W05/W05E05.java) — Counting and summing even/odd numbers: for loop with modulo operator, multiple counters and accumulators. (Original author: [@IvanFong](https://github.com/IvanFong))
+- [`W05E05A.java`](Exercise2025/src/W05/W05E05A.java) — Alternative with while loop: manual counter management, counts even/odd numbers (no sums). (Original author: [@azhrn](https://github.com/azhrn))
+- [`W05E05B.java`](Exercise2025/src/W05/W05E05B.java) — Simplified version of W05E05: more compact code with combined variable declarations, counts and sums even/odd numbers with clearer output formatting.
+- [`W05E06.java`](Exercise2025/src/W05/W05E06.java) — Nested loops for square pattern: uses nested for loops to create a square grid of characters. (Original author: [@Zzfathir](https://github.com/Zzfathir))
+- [`W05E07.java`](Exercise2025/src/W05/W05E07.java) — Expenses tracker: repeatedly reads amounts, validates and sums them until the user types "done". Demonstrates input parsing with `Double.parseDouble()` and exception handling. (Original author: [@Safazalfa](https://github.com/Safazalfa))
+- [`W05E08.java`](Exercise2025/src/W05/W05E08.java) — Finding maximum and minimum values: uses `Integer.MAX_VALUE` and `Integer.MIN_VALUE` for initialization, validates input range, and tracks highest/lowest scores.
+- [`W05E09.java`](Exercise2025/src/W05/W05E09.java) — Password strength checker: analyzes password characters using `Character` class methods (isUpperCase, isLowerCase, isDigit), classifies strength as Strong/Medium/Weak based on character type diversity. (Original author: [@dejettss](https://github.com/dejettss))
+- [`W05E10.java`](Exercise2025/src/W05/W05E10.java) — Number triangle pattern generator: uses nested loops to create incrementing number patterns, outer loop controls rows, inner loop prints sequential numbers for each row. (Original author: [@shaoern0606](https://github.com/shaoern0606))
+ - [`W05E11.java`](Exercise2025/src/W05/W05E11.java) — Prime key validator: repeatedly prompts for an integer > 50, checks if it is prime, and only accepts valid prime keys. Demonstrates input validation, prime checking, and user feedback. (Original author: [@Ying038](https://github.com/Ying038))
+ - [`W05E12.java`](Exercise2025/src/W05/W05E12.java) — Fibonacci rabbit population simulation: prints the number of rabbit pairs for each month using the Fibonacci sequence, stops if the population exceeds 1000. (Original author: [@muhdnuqman](https://github.com/muhdnuqman))
+- [`W05E13.java`](Exercise2025/src/W05/W05E13.java) — Christmas tree pattern generator: advanced nested loops creating a pyramid tree with trunk, uses arithmetic series for dimension calculations and space positioning for symmetrical output. (Original author: [@muhdnuqman](https://github.com/muhdnuqman))
+
+
+
+
+
 How to run
 ----------
 
-### Option 1: Using Command Line
+### Option 1: Using Dev Container in VS Code (Recommended)
+This repository includes a `.devcontainer` configuration for the best development experience with VS Code:
+
+1. **Prerequisites:**
+   - Install [Visual Studio Code](https://code.visualstudio.com/)
+   - Install [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+   - Install the [Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) for VS Code
+
+2. **Open in Container:**
+   ```bash
+   git clone https://github.com/WIX1002-1-2018/exercise2025.git
+   cd exercise2025
+   code .
+   ```
+   - VS Code will detect the `.devcontainer` folder
+   - Click "Reopen in Container" when prompted (or press `F1` and select "Dev Containers: Reopen in Container")
+   - Wait for the container to build (first time only)
+
+3. **Run a program:**
+   - Navigate to any `.java` file in the `Exercise2025/src` folder
+   - Right-click and select "Run Java" or click the "Run" button above the `main` method
+   - Output will appear in the integrated terminal
+
+**Benefits of Dev Container:**
+- Pre-configured Java development environment
+- Consistent setup across all machines
+- No need to install Java locally
+- All dependencies and tools included
+
+### Option 2: Using Command Line
 From the `Exercise2025` directory you can compile and run any example using `javac` and `java`.
 
 Example (Unix / Linux / macOS):
@@ -86,7 +148,7 @@ javac -d out $(find src -name "*.java")
 java -cp out W02.W02E01
 ```
 
-### Option 2: Using an IDE (NetBeans, IntelliJ IDEA, Eclipse, etc.)
+### Option 3: Using an IDE (NetBeans, IntelliJ IDEA, Eclipse, etc.)
 Students are free to clone this repository to any Java IDE:
 
 1. **Clone the repository:**
@@ -106,5 +168,9 @@ Students are free to clone this repository to any Java IDE:
 Notes
 -----
 - These examples are small, self-contained learning exercises intended for beginners.
+- Learn Fork and Pull Request. Try to add a new file and submit pull request.
+- If you help to contribute, your name will be listed as one of the contributor.
+
+Version 5.1
 
 

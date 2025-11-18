@@ -6,7 +6,7 @@ package W01;
 
 /**
  *
- * @author Badrul
+ * @author Badrul Anuar
  */
 public class W01E01 {
 
