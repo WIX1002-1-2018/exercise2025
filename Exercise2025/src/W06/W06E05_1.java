@@ -2,7 +2,7 @@ package W06;
 
 import java.util.Random;
 
-public class W06E05 {
+public class W06E05_1 {
     public static void main(String[] args) {
         char[] randomList = new char[100];
         Random rng = new Random();
