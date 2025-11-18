@@ -15,7 +15,7 @@ import java.util.Random;
  * @author hafidzmrizky
  */
 public class W06E05 {
-    
+
     public static void main(String[] args) {
         Random random = new Random();
         
@@ -37,6 +37,6 @@ public class W06E05 {
             }
         
         System.out.println("female students count: " + femaleCount);
-    }
+        }
     
-}
+    }
