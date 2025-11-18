@@ -14,8 +14,10 @@ public class W06E04 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-        System.out.println("THis is answer for question 4");
+        char[] symbol = {'$', '%', '+', '-'};
+        
+        symbol[2] = '*';
+        
     }
     
 }
