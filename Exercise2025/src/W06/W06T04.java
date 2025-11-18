@@ -1,28 +1,34 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package W06;
+
 /**
- *
+ * W06T04 - Counting Word Occurrences in Array
+ * Demonstrates: Searching and counting specific strings in a string array
+ * 
+ * Key Concepts:
+ * - String array declaration and initialization
+ * - Using equals() method for string comparison
+ * - Counter variable to track occurrences
+ * - Loop through array with conditional check
+ * 
  * @author pensyarah
+ * @modified Badrul Anuar
  */
 public class W06T04 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
-      String[] str = {"123", "254", "the"};
+        // Array with mixed content (numbers as strings and words)
+        String[] str = {"123", "254", "the"};
       
-      //String[] word = new String[3];
-      int count = 0;
-      for(int i = 0; i < 3; i++){
-        if (str[i].equals("the")){
-            count = count + 1;
+        // Counter for occurrences of target word
+        int count = 0;
+        
+        // Loop through array and count occurrences of "the"
+        for(int i = 0; i < 3; i++){
+            if (str[i].equals("the")){
+                count = count + 1;
+            }
         }
-      }
-      System.out.println(count);
+        
+        System.out.println(count);  // Prints 1
     }
 }

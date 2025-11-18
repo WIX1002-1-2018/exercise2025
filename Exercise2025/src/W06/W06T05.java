@@ -1,25 +1,35 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package W06;
 
 /**
- *
+ * W06T05 - Reversing Array Elements and Strings
+ * Demonstrates: Iterating array in reverse and reversing each string
+ * 
+ * Key Concepts:
+ * - Reverse iteration (from length-1 down to 0)
+ * - StringBuilder class for string manipulation
+ * - StringBuilder.reverse() method
+ * - toString() to convert StringBuilder back to String
+ * 
  * @author pensyarah
+ * @modified Badrul Anuar
  */
 public class W06T05 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        // Array of strings
         String[] sentence = {"my", "name", "is", "QIANFUSHENG"};
+        
+        // Iterate through array in reverse order
         for (int i = sentence.length - 1; i >=0; i--){
+            // Reverse each string using StringBuilder
             String reversedString = new StringBuilder(sentence[i]).reverse().toString();
             System.out.println(reversedString);
         }
+        // Output:
+        // GNEHSUFNAIQ
+        // si
+        // eman
+        // ym
     }
     
 }

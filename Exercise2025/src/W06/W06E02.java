@@ -1,23 +1,25 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package W06;
 
 /**
- *
+ * W06E02 - Array Traversal with Loops
+ * Demonstrates: Accessing array elements individually vs using loops
+ * 
+ * Key Concepts:
+ * - Individual element access by index
+ * - Using variable as index
+ * - Using for loop to traverse arrays
+ * - The 'array.length' property
+ * - Efficient array iteration
+ * 
  * @author pensyarah
  */
 public class W06E02 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
-        
+        // Initialize array with values
         int [] number = {0,1,2,3,4,5,6,7};
         
+        // Manual access - not efficient for large arrays
         System.out.println(number[0]);
         System.out.println(number[1]);
         System.out.println(number[2]);
@@ -27,11 +29,13 @@ public class W06E02 {
         System.out.println(number[6]);
         System.out.println(number[7]);
         
+        // Using variable as index
         int i=5;
-        System.out.println(number[i]);
+        System.out.println(number[i]);  // Prints number[5] = 5
         
+        // Using loop - much more efficient
         System.out.println("Using Loop");
-        for(i=0;i<number.length;i++)
+        for(i=0; i<number.length; i++)  // number.length gives size of array
             System.out.print(number[i] +  " ");
     }
     

@@ -101,7 +101,26 @@ The `src/W05` folder contains Java examples demonstrating different loop types, 
  - [`W05E12.java`](Exercise2025/src/W05/W05E12.java) — Fibonacci rabbit population simulation: prints the number of rabbit pairs for each month using the Fibonacci sequence, stops if the population exceeds 1000. (Original author: [@muhdnuqman](https://github.com/muhdnuqman))
 - [`W05E13.java`](Exercise2025/src/W05/W05E13.java) — Christmas tree pattern generator: advanced nested loops creating a pyramid tree with trunk, uses arithmetic series for dimension calculations and space positioning for symmetrical output. (Original author: [@muhdnuqman](https://github.com/muhdnuqman))
 
+Summary of Week 06 (W06)
+-------------------------
+The `src/W06` folder contains Java examples demonstrating arrays and array operations:
 
+- [`W06E01.java`](Exercise2025/src/W06/W06E01.java) — Basic array declaration and initialization: creating arrays with `new`, initializing with values, accessing and modifying elements. Shows both int and String arrays.
+- [`W06E02.java`](Exercise2025/src/W06/W06E02.java) — Array traversal: demonstrates accessing array elements individually vs. using a for loop. Introduces `array.length` property.
+- [`W06E03.java`](Exercise2025/src/W06/W06E03.java) — Large arrays: creating an array with 100 elements, accessing first and last elements (index 0 and 99).
+- [`W06E04.java`](Exercise2025/src/W06/W06E04.java) — Character arrays: declaring, initializing, modifying, and displaying char arrays using loops.
+- [`W06E05.java`](Exercise2025/src/W06/W06E05.java) — Random array generation and counting: fills array with random 'M' or 'F' values, counts occurrences of a specific character. (Original author: [@hafidzmrizky](https://github.com/hafidzmrizky))
+- [`W06E05_1.java`](Exercise2025/src/W06/W06E05_1.java) — Alternative gender counting: compact version using ternary operator and inline counting during array generation. (Original author: [@muhdnuqman](https://github.com/muhdnuqman))
+- [`W06E06.java`](Exercise2025/src/W06/W06E06.java) — String splitting: uses `String.split()` method to convert comma-separated string into array, demonstrates enhanced for-each loop. (Original author: Tey Yong Zhun)
+- [`W06E07.java`](Exercise2025/src/W06/W06E07.java) — Bubble sort algorithm: generates 20 random numbers, implements bubble sort to arrange in ascending order, displays both ascending and descending sorted arrays. (Original author: Yaseen Ayatullah Khan)
+- [`W06E08.java`](Exercise2025/src/W06/W06E08.java) — Array statistics with sorting: generates 20 random numbers, uses bubble sort, and calculates minimum (first element), maximum (last element), and sum of all elements. (Original author: Tey Yong Zhun)
+- [`W06E09.java`](Exercise2025/src/W06/W06E09.java) — Linear search: generates random array, prompts user for a number to search, performs linear search and reports position or "not found". (Original author: [@muhdnuqman](https://github.com/muhdnuqman))
+
+**Tutorial Exercises (W06T):**
+- [`W06T04.java`](Exercise2025/src/W06/W06T04.java) — Counting word occurrences: searches string array for specific word ("the"), counts how many times it appears using `equals()` method.
+- [`W06T05.java`](Exercise2025/src/W06/W06T05.java) — Reversing array elements: iterates through string array in reverse order, reverses each word using `StringBuilder.reverse()`.
+- [`W06T05_1.java`](Exercise2025/src/W06/W06T05_1.java) — Alternative string reversal: demonstrates two methods - manual character iteration using `charAt()` and using `StringBuilder` for comparison.
+- [`W06T06.java`](Exercise2025/src/W06/W06T06.java) — Decimal to binary conversion: generates random number (0-255), converts to 8-bit binary representation using array, stores bits through modulo and division operations.
 
 
 

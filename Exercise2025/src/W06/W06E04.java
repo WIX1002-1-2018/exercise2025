@@ -1,26 +1,31 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package W06;
 
 /**
- *
- * @author pensyarah
+ * W06E04 - Character Arrays
+ * Demonstrates: Working with char arrays, modifying and displaying elements
+ * 
+ * Key Concepts:
+ * - Character arrays store single characters
+ * - Array initialization with char literals
+ * - Modifying array elements
+ * - Traversing arrays with loops
+ * 
+ * @author Badrul Anuar
+ * @modified pensyarah
  */
 public class W06E04 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        // Initialize char array with special characters
         char [] charN = {'$', '%', '+', '-'};
-        charN[2] = '*';
-        System.out.println(charN[2]);
         
-        for(int i=0;i<charN.length;i++)
-            System.out.print(charN[i] + " ");
+        // Modify element at index 2 (change '+' to '*')
+        charN[2] = '*';
+        System.out.println(charN[2]);  // Prints '*'
+        
+        // Display all elements using loop
+        for(int i=0; i<charN.length; i++)
+            System.out.print(charN[i] + " ");  // Prints: $ % * - 
     }
     
 }
