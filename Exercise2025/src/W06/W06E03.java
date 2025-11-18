@@ -8,7 +8,7 @@ package W06;
  *
  * @author pensyarah
  */
-public class W06E3 {
+public class W06E03 {
 
     /**
      * @param args the command line arguments
