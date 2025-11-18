@@ -37,6 +37,12 @@ public class W06E02 {
         System.out.println("Using Loop");
         for(i=0; i<number.length; i++)  // number.length gives size of array
             System.out.print(number[i] +  " ");
+
+        // Using for-each loop
+        System.out.println("\nUsing For-Each Loop");
+        for (int num : number) {
+            System.out.print(num + " ");
+        }
     }
     
 }

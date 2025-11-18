@@ -20,7 +20,7 @@ import java.util.Random;
  * @author muhdnuqman
  * @modified pensyarah
  */
-public class W06E05_1 {
+public class W06E05a {
     public static void main(String[] args) {
         char[] randomList = new char[100];
         Random rng = new Random();

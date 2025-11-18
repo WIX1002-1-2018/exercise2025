@@ -106,11 +106,11 @@ Summary of Week 06 (W06)
 The `src/W06` folder contains Java examples demonstrating arrays and array operations:
 
 - [`W06E01.java`](Exercise2025/src/W06/W06E01.java) — Basic array declaration and initialization: creating arrays with `new`, initializing with values, accessing and modifying elements. Shows both int and String arrays.
-- [`W06E02.java`](Exercise2025/src/W06/W06E02.java) — Array traversal: demonstrates accessing array elements individually vs. using a for loop. Introduces `array.length` property.
+- [`W06E02.java`](Exercise2025/src/W06/W06E02.java) — Array traversal: demonstrates accessing array elements individually vs. using a for loop and enhanced for-each loop. Introduces `array.length` property and shows efficient iteration methods.
 - [`W06E03.java`](Exercise2025/src/W06/W06E03.java) — Large arrays: creating an array with 100 elements, accessing first and last elements (index 0 and 99).
 - [`W06E04.java`](Exercise2025/src/W06/W06E04.java) — Character arrays: declaring, initializing, modifying, and displaying char arrays using loops.
 - [`W06E05.java`](Exercise2025/src/W06/W06E05.java) — Random array generation and counting: fills array with random 'M' or 'F' values, counts occurrences of a specific character. (Original author: [@hafidzmrizky](https://github.com/hafidzmrizky))
-- [`W06E05_1.java`](Exercise2025/src/W06/W06E05_1.java) — Alternative gender counting: compact version using ternary operator and inline counting during array generation. (Original author: [@muhdnuqman](https://github.com/muhdnuqman))
+- [`W06E05a.java`](Exercise2025/src/W06/W06E05a.java) — Alternative gender counting: compact version using ternary operator and inline counting during array generation. (Original author: [@muhdnuqman](https://github.com/muhdnuqman))
 - [`W06E06.java`](Exercise2025/src/W06/W06E06.java) — String splitting: uses `String.split()` method to convert comma-separated string into array, demonstrates enhanced for-each loop. (Original author: Tey Yong Zhun)
 - [`W06E07.java`](Exercise2025/src/W06/W06E07.java) — Bubble sort algorithm: generates 20 random numbers, implements bubble sort to arrange in ascending order, displays both ascending and descending sorted arrays. (Original author: Yaseen Ayatullah Khan)
 - [`W06E08.java`](Exercise2025/src/W06/W06E08.java) — Array statistics with sorting: generates 20 random numbers, uses bubble sort, and calculates minimum (first element), maximum (last element), and sum of all elements. (Original author: Tey Yong Zhun)
