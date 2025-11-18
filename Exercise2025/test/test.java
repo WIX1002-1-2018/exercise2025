@@ -6,8 +6,10 @@
 import java.util.Scanner;
 public class test {
     public static void main(String[] args) {
-int[] num=new int[100];
-num[0]=12;
-num[99]=89;
+char[] symbol={'$','%','%','-'};
+symbol[2]='*';
+for(int i=0;i<4;i++){
+    System.out.print(symbol[i]);
+}
     }
 }
