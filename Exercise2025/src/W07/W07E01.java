@@ -16,9 +16,8 @@ public class W07E01 {
             int size = shoeIndustry[i][0];
             int stock = shoeIndustry[i][1];
 
-            if (stock > 5) System.out.println("Size " + size + " Available");
-            else if (stock > 0) System.out.println("Size " + size + " Few stocks");
-            else System.out.println("Size " + size + " Unavailable");
+            if (stock > 0) System.out.println("Size " + size + ": Available with " + stock + " pairs");
+            else System.out.println("Size " + size + ": Out of stock");
         }
 
     }
