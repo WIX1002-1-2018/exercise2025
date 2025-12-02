@@ -1,57 +1,48 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package W07;
 
 import java.util.Random;
 
 /**
+ * W07E02 - 2D Sales Table & Maximum Finder
+ * Demonstrates: Filling a 5x7 table (sizes x days) with random sales and
+ * determining the highest single-day sales entry.
+ *
+ * Table Layout:
+ * - Rows: 5 shoe sizes (6..10)
+ * - Columns: 7 days (Mon..Sun)
+ *
+ * Key Concepts:
+ * - 2D array traversal (nested for loops)
+ * - Tracking maximum while generating data
+ * - Parallel array for day names
+ * - Avoiding magic numbers by deriving indices from array lengths
  *
  * @author pensyarah
  */
 public class W07E02 {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
         int [][] salesTable = new int[5][7];
-        int highestSales = -1;
-        int highestDay = 0;
+        int highestSales = -1;          // start below possible min (0)
+        int highestDayIndex = 0;
         int highestSize = 0;
-        String stringDay = "";
-        
-        String [] day = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
-        
+
+        String[] days = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
         Random random = new Random();
-        
-        for(int i=0;i< salesTable.length;i++){
-            int sales=0;
-            int size = 6+i;
-           
-            
-            for(int iDay = 0; iDay < day.length;iDay++){
-                sales = random.nextInt(101);
-                salesTable[i][iDay] = sales;
-              //  System.out.println(day[i] + " Size " + size + " with Sales : " + sales);
-                
-                if(sales > highestSales){
-                    highestSales = sales ;
-                    highestDay = iDay;
+
+        // Populate sales & track max
+        for(int row = 0; row < salesTable.length; row++) {
+            int size = 6 + row;
+            for(int col = 0; col < days.length; col++) {
+                int sales = random.nextInt(101); // 0..100
+                salesTable[row][col] = sales;
+                if (sales > highestSales) {
+                    highestSales = sales;
+                    highestDayIndex = col;
                     highestSize = size;
-                    stringDay = day[highestDay];
                 }
             }
-            
-            
         }
-        
-        System.out.println("The highest sales: Size " + highestSize + " (" + day[highestDay] + ") with " + highestSales + " pairs");
-        System.out.println("The highest sales: Size " + highestSize + " (" + stringDay + ") with " + highestSales + " pairs");
-    
-        
+
+        System.out.println("Highest sales: Size " + highestSize + " (" + days[highestDayIndex] + ") with " + highestSales + " pairs");
     }
-    
 }

@@ -123,7 +123,22 @@ The `src/W06` folder contains Java examples demonstrating arrays and array opera
 - [`W06T05_1.java`](Exercise2025/src/W06/W06T05_1.java) — Alternative string reversal: demonstrates two methods - manual character iteration using `charAt()` and using `StringBuilder` for comparison.
 - [`W06T06.java`](Exercise2025/src/W06/W06T06.java) — Decimal to binary conversion: generates random number (0-255), converts to 8-bit binary representation using array, stores bits through modulo and division operations.
 
+Summary of Week 07 (W07)
+-------------------------
+The `src/W07` folder focuses on advancing method usage, 2D arrays, method overloading, array mutability, returning grouped results, shape printing, and utility algorithms:
 
+- [`W07E01.java`](Exercise2025/src/W07/W07E01.java) — 2D inventory table: rows hold shoe size & random stock; classifies status (Out / Low / Available).
+- [`W07E02.java`](Exercise2025/src/W07/W07E02.java) — Weekly sales matrix (sizes × days) with single-pass highest sale tracking.
+- [`W07E03.java`](Exercise2025/src/W07/W07E03.java) — Menu-driven launcher choosing inventory vs sales demo; highlights user input routing and helper methods.
+- [`W07E04.java`](Exercise2025/src/W07/W07E04.java) — Parameterized greeting methods showing argument passing and reuse.
+- [`W07E05.java`](Exercise2025/src/W07/W07E05.java) — Void vs return methods; sum printing vs returning and simple age validation.
+- [`W07E06.java`](Exercise2025/src/W07/W07E06.java) — Method overloading showcase (`computeArea`, `sum`, `describe`) illustrating arity, type selection, flags, and varargs precedence.
+- [`W07E07.java`](Exercise2025/src/W07/W07E07.java) — Array mutation vs pure operations; in-place transforms plus grouped statistics (min/max/sum, average/std dev) and cloning contrast.
+- [`W07L01.java`](Exercise2025/src/W07/W07L01.java) — Shape printing (triangle & diamond) via reusable `multiPrint` helper to eliminate repetition.
+- [`W07T01.java`](Exercise2025/src/W07/W07T01.java) — Assorted utilities: max-of-three, perfect square test, combinations, pentagonal detection, first duplicate random, circle metrics, letter/digit counting, random array fill.
+- [`W07T02.java`](Exercise2025/src/W07/W07T02.java) — Manual descending ordering of three ints using pairwise swaps (no arrays needed).
+
+All Week 07 examples authored by pensyarah and enriched with structured educational headers.
 
 How to run
 ----------
