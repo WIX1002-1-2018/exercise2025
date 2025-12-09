@@ -17,7 +17,7 @@ public class W01E01 {
         // Exercise 01: Basic println - Printing simple text
         System.out.println("Welcome to Java Programming!");
         System.out.println("This is my first Java program");
-        System.out.println("Learning is fun!");
+        System.out.println("Learning is fuuunnn!");
     }
     
 }
