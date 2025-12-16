@@ -1,37 +1,35 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package W09;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.util.Scanner;
-import java.io.*;
+
 /**
- *
+ * W09E02 - Read Integers and Find Maximum (Text File)
+ * Purpose: Read the integers produced by `W09E01` from `integer.txt`, display
+ *          them, and report the largest value found.
+ * Key Concepts: File reading with `Scanner`, sentinel max initialization
+ *               (`Integer.MIN_VALUE`), iterative comparison, resource cleanup.
+ * Dependencies: Requires `integer.txt` in the working directory.
+ * 
  * @author pensyarah
  */
 public class W09E02 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
-        try{
-            Scanner scan = new Scanner(new FileInputStream("integer.txt"));
+        try (Scanner scan = new Scanner(new FileInputStream("integer.txt"))) {
             System.out.print("The list : ");
             int max = Integer.MIN_VALUE;
-            while (scan.hasNextInt()){
+            while (scan.hasNextInt()) {
                 int number = scan.nextInt();
-                if(number > max) {
+                if (number > max) {
                     max = number;
                 }
                 System.out.print(number + " ");
             }
             System.out.println("\nLargest number: " + max);
-            scan.close();
-        } catch (FileNotFoundException e){
+        } catch (FileNotFoundException e) {
             System.out.println("File not found");
         }
     }
-    
 }

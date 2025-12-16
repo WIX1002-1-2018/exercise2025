@@ -140,6 +140,20 @@ The `src/W07` folder focuses on advancing method usage, 2D arrays, method overlo
 
 All Week 07 examples authored by pensyarah and enriched with structured educational headers.
 
+Summary of Week 09 (W09)
+-------------------------
+The `src/W09` folder demonstrates file I/O in text and binary form, resource management styles, and utility wrappers:
+
+- [`W09E01.java`](Exercise2025/src/W09/W09E01.java) — Write 10 random integers (0–1000) to `integer.txt` using text output.
+- [`W09E02.java`](Exercise2025/src/W09/W09E02.java) — Read integers from `integer.txt`, echo the list, and report the maximum value.
+- [`W09E03.java`](Exercise2025/src/W09/W09E03.java) — Write 10 random integers (0–1000) to `integer.dat` in binary using `ObjectOutputStream`.
+- [`W09E04.java`](Exercise2025/src/W09/W09E04.java) — Read integers from `integer.dat`, display them, and compute the average with EOF handling.
+- [`W09E05.java`](Exercise2025/src/W09/W09E05.java) — Encode a string to binary bits in `dataBinary.txt`, then decode back to text (original author: Badrul).
+- [`W09E06.java`](Exercise2025/src/W09/W09E06.java) — `java.io.File` usage demo: path metadata, create/check/delete files and directories, and list contents.
+- [`W09E07.java`](Exercise2025/src/W09/W09E07.java) — Contrast traditional try/finally resource handling with try-with-resources while reading a sample file.
+- [`W09E08.java`](Exercise2025/src/W09/W09E08.java) — Combined text-file workflow: static methods to write random ints to a file and read them back to find the max (E01+E02 in one class).
+- [`W09E09.java`](Exercise2025/src/W09/W09E09.java) — Combined binary-file workflow: static methods to write random ints to a binary file and read/average them (E03+E04 in one class).
+
 How to run
 ----------
 
