@@ -3,14 +3,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package W09;
-
 /**
  *
  * @author pensyarah
  */
 import java.io.*;
 import java.util.Random;
-public class W09T01 {
+public class W09E01 {
 
     /**
      * @param args the command line arguments
@@ -25,7 +24,7 @@ public class W09T01 {
                 int num = rand.nextInt(1001);
                 writer.println(num);
             }
-            writer.close();
+            //writer.close();
           //  System.out.println("Integer.txt has been created");
         }catch(FileNotFoundException e){
             System.out.println("Problem with the file");

@@ -9,7 +9,7 @@ import java.io.*;
  *
  * @author pensyarah
  */
-public class W09T02 {
+public class W09E02 {
 
     /**
      * @param args the command line arguments

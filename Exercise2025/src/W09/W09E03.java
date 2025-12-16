@@ -10,7 +10,7 @@ package W09;
  */
 import java.io.*;
 import java.util.Random;
-public class W09T03 {
+public class W09E03 {
 
     /**
      * @param args the command line arguments

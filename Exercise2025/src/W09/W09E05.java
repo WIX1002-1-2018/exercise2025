@@ -15,14 +15,14 @@ import java.util.Scanner;
  *
  * @author Badrul
  */
-public class W09T04a {
+public class W09E05 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-            String str = "Introduction to Java Programming!";
+            String str = "Hello World";
     byte[] bytes = str.getBytes();
     try {
                 try (PrintWriter outputStream = new PrintWriter(new FileOutputStream ("dataBinary.txt"))) {

@@ -14,7 +14,7 @@ import java.io.ObjectInputStream;
  *
  * @author pensyarah
  */
-public class W09T04 {
+public class W09E04 {
 
     /**
      * @param args the command line arguments
@@ -25,7 +25,7 @@ public class W09T04 {
         int count = 0;
         try {
             ObjectInputStream in = new ObjectInputStream(new FileInputStream("integer.dat"));
-            System.out.println("List of integers: ");
+            System.out.print("List of integers: ");
             try{
                 while(true){
                 int num = in.readInt();
@@ -37,7 +37,7 @@ public class W09T04 {
                 System.out.println("");
            }
    
-           System.out.printf("The average is %.2f", (double) sum/count);
+           System.out.printf("The average is %.2f\n", (double) sum/count);
            in.close(); 
             
         }catch(IOException e) {
