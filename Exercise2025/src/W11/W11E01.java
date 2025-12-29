@@ -1,20 +1,38 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package W11;
 
 /**
+ * W11E01 - Introduction to Classes
  *
- * @author Badrul
+ * LEARNING OBJECTIVES:
+ * - Declare a simple class with fields and methods
+ * - Create objects using a constructor
+ * - Call an instance method to produce output
+ *
+ * JOURNAL:
+ * A class is a blueprint; objects are the real things created from it.
+ * Here we store a name and age, then ask each object to introduce itself.
  */
 public class W11E01 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        SimplePersonE01 first = new SimplePersonE01("Aisyah", 19);
+        SimplePersonE01 second = new SimplePersonE01("Ben", 21);
+
+        first.introduce();
+        second.introduce();
     }
-    
+}
+
+class SimplePersonE01 {
+    private final String name;
+    private final int age;
+
+    SimplePersonE01(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    void introduce() {
+        System.out.println("Hi, I am " + name + " and I am " + age + " years old.");
+    }
 }

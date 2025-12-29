@@ -154,6 +154,36 @@ The `src/W09` folder demonstrates file I/O in text and binary form, resource man
 - [`W09E08.java`](Exercise2025/src/W09/W09E08.java) — Combined text-file workflow: static methods to write random ints to a file and read them back to find the max (E01+E02 in one class).
 - [`W09E09.java`](Exercise2025/src/W09/W09E09.java) — Combined binary-file workflow: static methods to write random ints to a binary file and read/average them (E03+E04 in one class).
 
+Summary of Week 10 (W10)
+-------------------------
+The `src/W10` folder provides a progressive introduction to object-oriented programming in Java, covering classes, encapsulation, and polymorphism concepts:
+
+- [`W10E01.java`](Exercise2025/src/W10/W10E01.java) — Introduction to classes: understanding what a class is, basic structure with instance variables, creating objects, and accessing attributes. Demonstrates the blueprint-object relationship.
+- [`W10E02.java`](Exercise2025/src/W10/W10E02.java) — Instance variables and methods: adding behavior to classes through methods, distinguishing instance vs local variables, methods that use and modify object state.
+- [`W10E03.java`](Exercise2025/src/W10/W10E03.java) — Constructors: special methods for object initialization, constructor syntax (same name as class, no return type), automatic invocation with `new`, and cleaner object creation.
+- [`W10E04.java`](Exercise2025/src/W10/W10E04.java) — Accessor methods (getters): introduction to encapsulation with `private` variables, creating getter methods for controlled read access, naming conventions (`getVariableName()`, `isVariableName()` for booleans).
+- [`W10E05.java`](Exercise2025/src/W10/W10E05.java) — Mutator methods (setters): creating setter methods for controlled write access, data validation in setters, maintaining data integrity, complete encapsulation pattern with getters and setters.
+- [`W10E06.java`](Exercise2025/src/W10/W10E06.java) — Complete class design: bringing together private variables, constructors, getters, setters, and behavior methods in a well-designed Product class following OOP principles.
+- [`W10E07.java`](Exercise2025/src/W10/W10E07.java) — Constructor overloading: multiple constructors with different parameter lists, providing flexibility in object creation, default values, and convenience constructors (e.g., square from one parameter).
+- [`W10E08.java`](Exercise2025/src/W10/W10E08.java) — Method overloading: multiple methods with same name but different parameters (number, type, or order), demonstrates type selection and practical Calculator class examples.
+- [`W10E09.java`](Exercise2025/src/W10/W10E09.java) — Combining constructor and method overloading: practical BankAccount class using both techniques together for maximum flexibility (deposit, withdraw, transfer with optional descriptions).
+- [`W10E10.java`](Exercise2025/src/W10/W10E10.java) — Comprehensive library system: complete application bringing all Week 10 concepts together with Book and Library classes, demonstrating object interactions, encapsulation, overloading, and real-world OOP design.
+
+Summary of Week 11 (W11)
+-------------------------
+The `src/W11` folder focuses on inheritance, overriding, constructors with `super`, access modifiers, and polymorphism:
+
+- [`W11E01.java`](Exercise2025/src/W11/W11E01.java) — Introduction to classes: simple fields, constructor, and instance method for self-introduction.
+- [`W11E02.java`](Exercise2025/src/W11/W11E02.java) — First inheritance example: child `StudentE02` extends parent `PersonE02`, reusing a greeting method.
+- [`W11E03.java`](Exercise2025/src/W11/W11E03.java) — Constructor chaining with `super`: parent runs first, child adds its own setup.
+- [`W11E04.java`](Exercise2025/src/W11/W11E04.java) — Overriding methods: child replaces parent description; dynamic dispatch chooses the child version.
+- [`W11E05.java`](Exercise2025/src/W11/W11E05.java) — Using `super.method()`: extend parent behavior while keeping its output.
+- [`W11E06.java`](Exercise2025/src/W11/W11E06.java) — Protected vs private members: subclasses can call protected methods; private stays inside the class.
+- [`W11E07.java`](Exercise2025/src/W11/W11E07.java) — Comparing access modifiers: public vs protected vs private visibility in practice.
+- [`W11E08.java`](Exercise2025/src/W11/W11E08.java) — Final methods: inherited behaviors that cannot be overridden.
+- [`W11E09.java`](Exercise2025/src/W11/W11E09.java) — Object class methods: overriding `toString()`, `equals()`, and `hashCode()` for readable and comparable objects.
+- [`W11E10.java`](Exercise2025/src/W11/W11E10.java) — Polymorphism with an abstract base: array of shapes calling each specific `area()` implementation.
+
 How to run
 ----------
 
