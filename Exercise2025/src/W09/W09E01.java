@@ -18,7 +18,7 @@ import java.util.Random;
 public class W09E01 {
 
     public static void main(String[] args) {
-        try (PrintWriter writer = new PrintWriter(new FileOutputStream("integer.txt"))) {
+        try (PrintWriter writer = new PrintWriter(new FileOutputStream("integer_text.dat"))) {
             Random rand = new Random();
             for (int i = 0; i < 10; i++) {
                 int num = rand.nextInt(1001); // 0..1000 inclusive
