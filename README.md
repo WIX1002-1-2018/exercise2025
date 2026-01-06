@@ -184,6 +184,21 @@ The `src/W11` folder focuses on inheritance, overriding, constructors with `supe
 - [`W11E09.java`](Exercise2025/src/W11/W11E09.java) — Object class methods: overriding `toString()`, `equals()`, and `hashCode()` for readable and comparable objects.
 - [`W11E10.java`](Exercise2025/src/W11/W11E10.java) — Polymorphism with an abstract base: array of shapes calling each specific `area()` implementation.
 
+Summary of Week 12 (W12)
+-------------------------
+The `src/W12` folder continues W10/W11 by combining classes, subclasses, inheritance, polymorphism, overloading/overriding, and Scanner/PrintWriter I/O with basic exception handling:
+
+- [`W12E01.java`](Exercise2025/src/W12/W12E01.java) — Multi-level people hierarchy showing overriding vs overloading with polymorphic calls.
+- [`W12E02.java`](Exercise2025/src/W12/W12E02.java) — Vehicles with super reuse, overriding, and overloaded trip starters.
+- [`W12E03.java`](Exercise2025/src/W12/W12E03.java) — Polymorphic shapes parsed via Scanner, written with PrintWriter using safe resources.
+- [`W12E04.java`](Exercise2025/src/W12/W12E04.java) — Payroll example reusing super logic, overriding pay, and overloading calculations.
+- [`W12E05.java`](Exercise2025/src/W12/W12E05.java) — Bank account with overloaded constructors/methods and statement output via PrintWriter.
+- [`W12E06.java`](Exercise2025/src/W12/W12E06.java) — Abstract resources with overridden load flows and overloaded sources.
+- [`W12E07.java`](Exercise2025/src/W12/W12E07.java) — Messaging notifiers demonstrating polymorphic send plus overloaded variants.
+- [`W12E08.java`](Exercise2025/src/W12/W12E08.java) — Pet hierarchy built from Scanner input, runtime binding of speak, overloaded feeding.
+- [`W12E09.java`](Exercise2025/src/W12/W12E09.java) — Number processing with overriding, overloading, Scanner validation, and PrintWriter output.
+- [`W12E10.java`](Exercise2025/src/W12/W12E10.java) — Capstone grade tasks combining parsing, inheritance, overriding/overloading, and persisted results.
+
 How to run
 ----------
 
