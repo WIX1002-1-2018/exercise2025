@@ -140,6 +140,20 @@ The `src/W07` folder focuses on advancing method usage, 2D arrays, method overlo
 
 All Week 07 examples authored by pensyarah and enriched with structured educational headers.
 
+Summary of Week 08 (W08)
+-------------------------
+The `src/W08` folder contains capstone exercises combining concepts from W01-W07 through realistic, scenario-based problems. These exercises use procedural programming with static helper methods but do not introduce object-oriented programming:
+
+- [`W08E01.java`](Exercise2025/src/W08/W08E01.java) — Student grade management system: reads student names and grades with input validation, calculates statistics (average, min, max), classifies grades as letter grades (A-F), and displays a formatted report.
+- [`W08E02.java`](Exercise2025/src/W08/W08E02.java) — Inventory management menu system: menu-driven interface using switch statements, manage product stock with parallel arrays, add/remove items with validation, search by product name, displays current inventory.
+- [`W08E03.java`](Exercise2025/src/W08/W08E03.java) — Sales analysis dashboard: analyzes 2D array of weekly sales data (products × days), calculates product and daily statistics (totals, averages, min/max), displays formatted tables and summary reports.
+- [`W08E04.java`](Exercise2025/src/W08/W08E04.java) — Text analysis tool: processes multi-line input to count characters, words, sentences, vowels, and classify character types (uppercase, lowercase, digits), provides averages and detailed breakdown using Character class methods.
+- [`W08E05.java`](Exercise2025/src/W08/W08E05.java) — Number guessing game: computer generates random number (1-100), player guesses with hot/cold feedback, tracks statistics (games played, total guesses, average guesses per game), implements game loop with replay option.
+- [`W08E06.java`](Exercise2025/src/W08/W08E06.java) — Restaurant bill calculator: reads itemized menu with prices, calculates subtotal, applies tax and delivery charges (free for large orders ≥$50), allows tip percentage selection, displays formatted receipt with locale-aware currency formatting.
+- [`W08E07.java`](Exercise2025/src/W08/W08E07.java) — Movie theater seating system: displays 2D grid of theater seats, allows users to book seats with 2D coordinate validation, tracks seat availability (booked vs available), provides occupancy statistics and percentage.
+
+**Pattern**: Each exercise combines multiple W01-W07 concepts in realistic applications using static helper methods for code organization without custom classes.
+
 Summary of Week 09 (W09)
 -------------------------
 The `src/W09` folder demonstrates file I/O in text and binary form, resource management styles, and utility wrappers:
