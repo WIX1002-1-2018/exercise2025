@@ -189,15 +189,19 @@ Summary of Week 12 (W12)
 The `src/W12` folder continues W10/W11 by combining classes, subclasses, inheritance, polymorphism, overloading/overriding, and Scanner/PrintWriter I/O with basic exception handling:
 
 - [`W12E01.java`](Exercise2025/src/W12/W12E01.java) — Multi-level people hierarchy showing overriding vs overloading with polymorphic calls.
-- [`W12E02.java`](Exercise2025/src/W12/W12E02.java) — Vehicles with super reuse, overriding, and overloaded trip starters.
-- [`W12E03.java`](Exercise2025/src/W12/W12E03.java) — Polymorphic shapes parsed via Scanner, written with PrintWriter using safe resources.
-- [`W12E04.java`](Exercise2025/src/W12/W12E04.java) — Payroll example reusing super logic, overriding pay, and overloading calculations.
-- [`W12E05.java`](Exercise2025/src/W12/W12E05.java) — Bank account with overloaded constructors/methods and statement output via PrintWriter.
-- [`W12E06.java`](Exercise2025/src/W12/W12E06.java) — Abstract resources with overridden load flows and overloaded sources.
-- [`W12E07.java`](Exercise2025/src/W12/W12E07.java) — Messaging notifiers demonstrating polymorphic send plus overloaded variants.
-- [`W12E08.java`](Exercise2025/src/W12/W12E08.java) — Pet hierarchy built from Scanner input, runtime binding of speak, overloaded feeding.
-- [`W12E09.java`](Exercise2025/src/W12/W12E09.java) — Number processing with overriding, overloading, Scanner validation, and PrintWriter output.
-- [`W12E10.java`](Exercise2025/src/W12/W12E10.java) — Capstone grade tasks combining parsing, inheritance, overriding/overloading, and persisted results.
+- [`W12E02.java`](Exercise2025/src/W12/W12E02.java) — Vehicles with super reuse, overriding, and overloaded trip starters. Demonstrates inheritance, constructor chaining, and polymorphism.
+- [`W12E03.java`](Exercise2025/src/W12/W12E03.java) — Polymorphic shapes parsed via Scanner, written with PrintWriter using safe resources. Shows abstract base class and method overloading.
+- [`W12E04.java`](Exercise2025/src/W12/W12E04.java) — Payroll example reusing super logic, overriding pay, and overloading calculations. Demonstrates extending parent behavior with `super`.
+- [`W12E05.java`](Exercise2025/src/W12/W12E05.java) — Bank account with overloaded constructors/methods, constructor chaining with `this()`, and statement output via PrintWriter.
+- [`W12E06.java`](Exercise2025/src/W12/W12E06.java) — Abstract resources with overridden load flows and overloaded sources. Shows abstract class pattern and polymorphism with arrays.
+- [`W12E07.java`](Exercise2025/src/W12/W12E07.java) — Messaging notifiers demonstrating polymorphic send plus overloaded variants. Uses inheritance and method overloading.
+- [`W12E08.java`](Exercise2025/src/W12/W12E08.java) — Pet hierarchy built from Scanner input, runtime binding of speak, overloaded feeding. Demonstrates abstract methods and dynamic binding.
+- [`W12E09.java`](Exercise2025/src/W12/W12E09.java) — Number processing with overriding, overloading, Scanner validation, and PrintWriter output. Shows exception handling for input parsing.
+- [`W12E10.java`](Exercise2025/src/W12/W12E10.java) — Capstone grade tasks combining parsing, inheritance, overriding/overloading, and persisted results. Abstract class with multiple implementations.
+- [`W12E11.java`](Exercise2025/src/W12/W12E11.java) — Interface implementation with polymorphic product types (Books, Electronics). Demonstrates interface contracts, method overloading, and different tax calculations per type.
+- [`W12E12.java`](Exercise2025/src/W12/W12E12.java) — Advanced polymorphism with abstract classes and inheritance hierarchy. Bank accounts (Savings, Checking) with interest calculation, `super()` constructor chaining, and method overriding.
+- [`W12E13.java`](Exercise2025/src/W12/W12E13.java) — Capstone: combining interfaces, abstract classes, and polymorphism. Fleet management system with multiple interface implementation, abstract methods, method overloading, and runtime polymorphic dispatch. Demonstrates complete OOP patterns with detailed comments.
+
 
 How to run
 ----------
