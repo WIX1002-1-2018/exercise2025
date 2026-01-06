@@ -215,6 +215,10 @@ The `src/W12` folder continues W10/W11 by combining classes, subclasses, inherit
 - [`W12E11.java`](Exercise2025/src/W12/W12E11.java) — Interface implementation with polymorphic product types (Books, Electronics). Demonstrates interface contracts, method overloading, and different tax calculations per type.
 - [`W12E12.java`](Exercise2025/src/W12/W12E12.java) — Advanced polymorphism with abstract classes and inheritance hierarchy. Bank accounts (Savings, Checking) with interest calculation, `super()` constructor chaining, and method overriding.
 - [`W12E13.java`](Exercise2025/src/W12/W12E13.java) — Capstone: combining interfaces, abstract classes, and polymorphism. Fleet management system with multiple interface implementation, abstract methods, method overloading, and runtime polymorphic dispatch. Demonstrates complete OOP patterns with detailed comments.
+- [`W12E14.java`](Exercise2025/src/W12/W12E14.java) — Polymorphism fundamentals: Early Binding vs Late Binding. Demonstrates method overloading (compile-time resolution) with Calculator class and method overriding (runtime resolution) with Animal hierarchy. Shows how JVM uses virtual method tables for dynamic dispatch.
+- [`W12E15.java`](Exercise2025/src/W12/W12E15.java) — Upcasting and safe downcasting with `instanceof`. Shows automatic upcasting of child objects to parent references and demonstrates proper downcasting patterns using `instanceof` checks. Includes practical examples with vehicle fleet analysis.
+- [`W12E16.java`](Exercise2025/src/W12/W12E16.java) — Clone method and Comparable interface. Demonstrates shallow vs deep copying, implements `clone()` for proper object duplication, and implements `Comparable<T>` for natural ordering with multi-level sort criteria (GPA, average score, name). Includes student ranking system.
+- [`W12E17.java`](Exercise2025/src/W12/W12E17.java) — Inner classes: Non-static inner, static nested, local, and anonymous. Shows all four types with practical examples: Transaction inner class accessing outer members, Address static nested class, LoginAttempt local class in method, and Validator anonymous class for event handling.
 
 
 How to run
