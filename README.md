@@ -220,6 +220,24 @@ The `src/W12` folder continues W10/W11 by combining classes, subclasses, inherit
 - [`W12E16.java`](Exercise2025/src/W12/W12E16.java) — Clone method and Comparable interface. Demonstrates shallow vs deep copying, implements `clone()` for proper object duplication, and implements `Comparable<T>` for natural ordering with multi-level sort criteria (GPA, average score, name). Includes student ranking system.
 - [`W12E17.java`](Exercise2025/src/W12/W12E17.java) — Inner classes: Non-static inner, static nested, local, and anonymous. Shows all four types with practical examples: Transaction inner class accessing outer members, Address static nested class, LoginAttempt local class in method, and Validator anonymous class for event handling.
 
+Summary of Week 13 (W13)
+-------------------------
+The `src/W13` folder focuses on exception handling fundamentals, demonstrating how to catch errors gracefully, create custom exceptions, and manage resources with proper cleanup:
+
+- [`W13E01.java`](Exercise2025/src/W13/W13E01.java) — Basic try-catch exception handling: demonstrates the core mechanism with ArithmeticException from division by zero. Shows how the try block executes normally, exceptions are thrown and caught, and the program continues without crashing. Includes multiple division test cases.
+
+- [`W13E02.java`](Exercise2025/src/W13/W13E02.java) — Multiple catch blocks: handling different exception types (NumberFormatException, ArrayIndexOutOfBoundsException, ArithmeticException, Exception) with proper ordering from specific to general. Shows that only the first matching catch block executes and demonstrates catch block order importance.
+
+- [`W13E03.java`](Exercise2025/src/W13/W13E03.java) — Custom exception classes and throws keyword: defines InvalidAgeException and InvalidGradeException by extending Exception class. Demonstrates how methods declare `throws` to pass responsibility to callers. Includes voter eligibility checking and scholarship qualification examples showing practical validation use.
+
+- [`W13E04.java`](Exercise2025/src/W13/W13E04.java) — File I/O with exception handling and finally block: uses PrintWriter to write files while handling FileNotFoundException. Shows how finally block ALWAYS executes regardless of exception, ensuring proper resource cleanup and preventing file handle leaks. Includes multiple writing examples and student records demo.
+
+- [`W13E05.java`](Exercise2025/src/W13/W13E05.java) — Advanced custom exceptions with data carrying: custom exceptions (InsufficientFundsException, OutOfStockException) carry additional data beyond messages. Demonstrates using getter methods to retrieve exception data for context-aware error handling. Includes realistic banking system and inventory management with detailed error feedback.
+
+- [`W13E06.java`](Exercise2025/src/W13/W13E06.java) — Input validation with custom exceptions: practical validation scenarios with InvalidEmailException, InvalidPasswordException, InvalidPhoneNumberException, and InvalidUsernameException. Demonstrates validation rules (format, length, allowed characters) with comprehensive test cases for emails, passwords, phone numbers, and usernames.
+
+**Pattern**: Week 13 builds robust error handling practices through try-catch, custom exceptions, throws declarations, finally blocks, and resource management for professional-grade Java applications.
+
 
 How to run
 ----------
